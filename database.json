@@ -937,6 +937,286 @@
             "oneLiner": "He'll get points on and off. More to do with his QB situation than him. A scary selection but could be worth in the late rounds.",
             "playerpositionId": 3
         },
+        {
+            "id": 86,
+            "name": "Laviska Shenault Jr.",
+            "teamId": 15,
+            "metricEval": 5.7,
+            "oneLiner": "Is he a WR or a RB? No one will ever know as long as he plays for the Jags.",
+            "playerpositionId": 3
+        },
+        {
+            "id": 87,
+            "name": "Michael Pittman",
+            "teamId": 14,
+            "metricEval": 6,
+            "oneLiner": "Tall and talented. Now he just needs a QB to throw it to him. Risky pick.",
+            "playerpositionId": 3
+        },
+        {
+            "id": 88,
+            "name": "Will Fuller",
+            "teamId": 19,
+            "metricEval": 1,
+            "oneLiner": "I'm pretty sure he's the entrepreneur of the injured reserve. Made of glass. Don't do this to yourself, just pass.",
+            "playerpositionId": 3
+        },
+        {
+            "id": 89,
+            "name": "Jarvis Landry",
+            "teamId": 8,
+            "metricEval": 7.2,
+            "oneLiner": "Tons of catches but nothing else. Great in point per reception leagues but otherwise meh. Later round pick.",
+            "playerpositionId": 3
+        },
+        {
+            "id": 90,
+            "name": "Brandon Cooks",
+            "teamId": 13,
+            "metricEval": 6.3,
+            "oneLiner": "Still worth a late round flyer. He's great but his QB situation is not. You can't catch what isn't thrown to you. Risky.",
+            "playerpositionId": 3
+        },
+        {
+            "id": 91,
+            "name": "Darnell Mooney",
+            "teamId": 6,
+            "metricEval": 5.4,
+            "oneLiner": "Not bad but not good. He can ghost you some weeks and put up decent numbers others.",
+            "playerpositionId": 3
+        },
+        {
+            "id": 92,
+            "name": "Michael Thomas",
+            "teamId": 22,
+            "metricEval": 8.4,
+            "oneLiner": "Is a great talent but shaky injury concerns and inconsistent QB play lowers his rating. A risky high pick investment.",
+            "playerpositionId": 3
+        },
+        {
+            "id": 93,
+            "name": "Marquise Brown",
+            "teamId": 3,
+            "metricEval": 6.4,
+            "oneLiner": "His name isn't Mark Andrews on the Ravens so does he even catch the football? Not sure...",
+            "playerpositionId": 3
+        },
+        {
+            "id": 94,
+            "name": "Russel Gage",
+            "teamId": 2,
+            "metricEval": 2.2,
+            "oneLiner": "Who is this? Does his QB even know?",
+            "playerpositionId": 3
+        },
+        {
+            "id": 95,
+            "name": "Jakobi Meyers",
+            "teamId": 21,
+            "metricEval": 4.3,
+            "oneLiner": "The kid is scared of the endzone but he pulls in catches. A very weird risk-reward pick.",
+            "playerpositionId": 3
+        },
+        {
+            "id": 96,
+            "name": "Bryan Edwards",
+            "teamId": 17,
+            "metricEval": 4,
+            "oneLiner": "He can play football. That's good. Not sure if that should convince you to pick him.",
+            "playerpositionId": 3
+        },
+        {
+            "id": 97,
+            "name": "Amon-Ra St. Brown",
+            "teamId": 11,
+            "metricEval": 0.2,
+            "oneLiner": "He's on the Lions with Jared Goff at QB. Don't hurt yourself, just pass.",
+            "playerpositionId": 3
+        },
+        {
+            "id": 98,
+            "name": "Travis Kelce",
+            "teamId": 16,
+            "metricEval": 10,
+            "oneLiner": "The safety blanket of the baby GOAT, a must have.",
+            "playerpositionId": 4
+        },
+        {
+            "id": 99,
+            "name": "Darren Waller",
+            "teamId": 17,
+            "metricEval": 9.8,
+            "oneLiner": "He's basically a really tall and fast WR that can play TE. Absolutely draft.",
+            "playerpositionId": 4
+        },
+        {
+            "id": 100,
+            "name": "George Kittle",
+            "teamId": 27,
+            "metricEval": 9.9,
+            "oneLiner": "Could be the best TE in the game. He'll produce but needs a better QB situation to really flourish.",
+            "playerpositionId": 4
+        },
+        {
+            "id": 101,
+            "name": "Mark Andrews",
+            "teamId": 3,
+            "metricEval": 9.4,
+            "oneLiner": "Crazy good production with lots of opportunities. Draft him.",
+            "playerpositionId": 4
+        },
+        {
+            "id": 102,
+            "name": "Kyle Pitts",
+            "teamId": 2,
+            "metricEval": 8.8,
+            "oneLiner": "The new star of the TE position...but he's on the Falcons. Meh. Solid pickup.",
+            "playerpositionId": 4
+        },
+        {
+            "id": 103,
+            "name": "TJ Hockenson",
+            "teamId": 11,
+            "metricEval": 8.5,
+            "oneLiner": "Very good but on the Lions with Jared Goff at QB. Luckily he gets lots of targets.",
+            "playerpositionId": 4
+        },
+        {
+            "id": 104,
+            "name": "Logan Thomas",
+            "teamId": 31,
+            "metricEval": 5,
+            "oneLiner": "When he's alive he isn't bad, but never alive. Pass.",
+            "playerpositionId": 4
+        },
+        {
+            "id": 105,
+            "name": "Robert Tonyan",
+            "teamId": 12,
+            "metricEval": 6.6,
+            "oneLiner": "A decent pickup if he sees the field. Can ghost games and show up big for others. Inconsistent.",
+            "playerpositionId": 4
+        },
+        {
+            "id": 106,
+            "name": "Jonnu Smith",
+            "teamId": 21,
+            "metricEval": 7,
+            "oneLiner": "Would be better if he stayed on the Titans.",
+            "playerpositionId": 4
+        },
+        {
+            "id": 107,
+            "name": "Noah Fant",
+            "teamId": 10,
+            "metricEval": 7.3,
+            "oneLiner": "Top tier talent but needs a good team around him.",
+            "playerpositionId": 4
+        },
+        {
+            "id": 108,
+            "name": "Gerald Everett",
+            "teamId": 28,
+            "metricEval": 5.8,
+            "oneLiner": "Only pick unless you have to. Too much good talent around him to have a ton of opportunities.",
+            "playerpositionId": 4
+        },
+        {
+            "id": 109,
+            "name": "Tyler Higbee",
+            "teamId": 18,
+            "metricEval": 6,
+            "oneLiner": "Decent TE. He'll get some opportunities. Streaky. Later round pick worthy.",
+            "playerpositionId": 4
+        },
+        {
+            "id": 110,
+            "name": "Dallas Goedert",
+            "teamId": 25,
+            "metricEval": 6.7,
+            "oneLiner": "Not a bad pick later. QB play is inconsistent but he has talent to put up big numbers if that can stabilize.",
+            "playerpositionId": 4
+        },
+        {
+            "id": 111,
+            "name": "Mike Gesicki",
+            "teamId": 19,
+            "metricEval": 7.4,
+            "oneLiner": "He's great but needs opportunities. Good mid round pick.",
+            "playerpositionId": 4
+        },
+        {
+            "id": 112,
+            "name": "Cole Kmet",
+            "teamId": 6,
+            "metricEval": 3.9,
+            "oneLiner": "The jury is still out on this guy. He seems to be a bust but he's also on a bad Bears offense. Give him a few years to figure it out. Pass.",
+            "playerpositionId": 4
+        },
+        {
+            "id": 113,
+            "name": "Zach Ertz",
+            "teamId": 1,
+            "metricEval": 5.5,
+            "oneLiner": "Does the TE even get used in the Cardinals offense? Who knows, might be worth a late flyer.",
+            "playerpositionId": 4
+        },
+        {
+            "id": 114,
+            "name": "Anthony Firkser",
+            "teamId": 30,
+            "metricEval": 0.7,
+            "oneLiner": "No. Just no.",
+            "playerpositionId": 4
+        },
+        {
+            "id": 115,
+            "name": "Austin Hooper",
+            "teamId": 8,
+            "metricEval": 6.6,
+            "oneLiner": "Not a bad grab later on.",
+            "playerpositionId": 4
+        },
+        {
+            "id": 116,
+            "name": "Rob Gronkowski",
+            "teamId": 29,
+            "metricEval": 7.8,
+            "oneLiner": "The GOAT's favorite target. When he isn't injured, he'll put up points. ",
+            "playerpositionId": 4
+        },
+        {
+            "id": 117,
+            "name": "Evan Engram",
+            "teamId": 23,
+            "metricEval": 6.8,
+            "oneLiner": "This man has too much talent to have Daniel Jones as his QB. Free this man!... but don't draft.",
+            "playerpositionId": 4
+        },
+        {
+            "id": 118,
+            "name": "Blake Jarwin",
+            "teamId": 9,
+            "metricEval": 3.5,
+            "oneLiner": "He's not the other TE on the roster. Don't draft.",
+            "playerpositionId": 4
+        },
+        {
+            "id": 119,
+            "name": "LA Rams Defense",
+            "teamId": 18,
+            "metricEval": 9.5,
+            "oneLiner": "Solid all around. The best in the game.",
+            "playerpositionId": 5
+        },
+        {
+            "id": 120,
+            "name": "Justin Tucker",
+            "teamId": 3,
+            "metricEval": 10,
+            "oneLiner": "Will go down as the best to ever do it if he plays a long career. Must pick.",
+            "playerpositionId": 6
+        }
         
 
     ],
