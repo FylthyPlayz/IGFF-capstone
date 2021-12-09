@@ -1,1234 +1,1267 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "name": "Jacob Cook",
-            "email": "jacob@email.com",
-            "favoriteTeam": 1
-        }
-    ],
-    "teams": [
-        {
-            "id": 1,
-            "name": "Arizona Cardinals"
-        },
-        {
-            "id": 2,
-            "name": "Atlanta Falcons"
-        },
-        {
-            "id": 3,
-            "name": "Baltimore Ravens"
-        },
-        {
-            "id": 4,
-            "name": "Buffalo Bills"
-        },
-        {
-            "id": 5,
-            "name": "Carolina Panthers"
-        },
-        {
-            "id": 6,
-            "name": "Chicago Bears"
-        },
-        {
-            "id": 7,
-            "name": "Cincinnati Bengals"
-        },
-        {
-            "id": 8,
-            "name": "Cleveland Browns"
-        },
-        {
-            "id": 9,
-            "name": "Dallas Cowboys"
-        },
-        {
-            "id": 10,
-            "name": "Denver Broncos"
-        },
-        {
-            "id": 11,
-            "name": "Detroit Lions"
-        },
-        {
-            "id": 12,
-            "name": "Green Bay Packers"
-        },
-        {
-            "id": 13,
-            "name": "Houston Texans"
-        },
-        {
-            "id": 14,
-            "name": "Indianapolis Colts"
-        },
-        {
-            "id": 15,
-            "name": "Jacksonville Jaguars"
-        },
-        {
-            "id": 16,
-            "name": "Kansas City Chiefs"
-        },
-        {
-            "id": 17,
-            "name": "Las Vegas Raiders"
-        },
-        {
-            "id": 18,
-            "name": "Los Angeles Rams"
-        },
-        {
-            "id": 19,
-            "name": "Miami Dolphins"
-        },
-        {
-            "id": 20,
-            "name": "Minnesota Vikings"
-        },
-        {
-            "id": 21,
-            "name": "New England Patriots"
-        },
-        {
-            "id": 22,
-            "name": "New Orleans Saints"
-        },
-        {
-            "id": 23,
-            "name": "New York Giants"
-        },
-        {
-            "id": 24,
-            "name": "New York Jets"
-        },
-        {
-            "id": 25,
-            "name": "Philadelphia Eagles"
-        },
-        {
-            "id": 26,
-            "name": "Pittsburgh Steelers"
-        },
-        {
-            "id": 27,
-            "name": "San Francisco 49ers"
-        },
-        {
-            "id": 28,
-            "name": "Seattle Seahawks"
-        },
-        {
-            "id": 29,
-            "name": "Tampa Bay Buccaneers"
-        },
-        {
-            "id": 30,
-            "name": "Tennessee Titans"
-        },
-        {
-            "id": 31,
-            "name": "Washington Football Team"
-        },
-        {
-            "id": 32,
-            "name": "Los Angeles Chargers"
-        }
-    ],
-    "userFavorites": [
-        {
-            "id": 1,
-            "userId": 1,
-            "teamId": 30
-        }
-    ],
-    "teamBuilder": [
-       {
-           "id": 1,
-           "name": "The Argonauts",
-           "userId": 1,
-           "qb1Id": 4,
-           "rb1Id": 38,
-           "rb2Id": 48
-       }
-    ],
-    "teamEvals": [
-        {
-            "id": 1,
-            "teamCalculatedEvaluation": 0.5,
-            "description": "RIP. Not going to lie, this is horrid. Good luck winning a game. This team can't be helped."
-        },
-        {
-            "id": 2,
-            "teamCalculatedEvaluation": 1,
-            "description": "You're going to need a miracle to win a game. Start praying for the NFL overlords to shine upon you."
-        },
-        {
-            "id": 3,
-            "teamCalculatedEvaluation": 1.5,
-            "description": "You can't win with this. Other players will laugh at this team. Sorry."
-        },
-        {
-            "id": 4,
-            "teamCalculatedEvaluation": 2,
-            "description": "At least it's not a dumpster fire but it's going to be hard to win."
-        },
-        {
-            "id": 5,
-            "teamCalculatedEvaluation": 2.5,
-            "description": "You may have one good player here but you better be swapping some players out in the free agency pool."
-        },
-        {
-            "id": 6,
-            "teamCalculatedEvaluation": 3,
-            "description": "Not the best but you have some core players you want to keep. As is, you are not winning much but make some changes and you can win some games."
-        },
-        {
-            "id": 7,
-            "teamCalculatedEvaluation": 3.5,
-            "description": "This is rough but you have core players to keep or trade one for multiple good players. It's going to be hard but you can win."
-        },
-        {
-            "id": 8,
-            "teamCalculatedEvaluation": 4,
-            "description": "Not the worst but not the best. You can win games but changes are needed to push for any hint of the playoffs."
-        },
-        {
-            "id": 9,
-            "teamCalculatedEvaluation": 4.5,
-            "description": "Below average draft. You're going to need to make changes. Trades, free agents, well-timed plays are going to be needed to push for playoffs."
-        },
-        {
-            "id": 10,
-            "teamCalculatedEvaluation": 5,
-            "description": "Slightly below average draft. You're going to struggle but the free agent wire will be your best friend. Watch it often."
-        },
-        {
-            "id": 11,
-            "teamCalculatedEvaluation": 5.5,
-            "description": "Average draft. You can win with this and you can lose with this."
-        },
-        {
-            "id": 12,
-            "teamCalculatedEvaluation": 6,
-            "description": "Slightly above average draft. You could run with this but a trade or key free agent pickup will be needed for a deep run."
-        },
-        {
-            "id": 13,
-            "teamCalculatedEvaluation": 6.5,
-            "description": "Above average draft. With a few changes throughout the year you can make a playoff push."
-        },
-        {
-            "id": 14,
-            "teamCalculatedEvaluation": 7,
-            "description": "Good job, you're going to need a few key pickups or drops at the right time, but you can win a lot of games."
-        },
-        {
-            "id": 15,
-            "teamCalculatedEvaluation":7.5,
-            "description": "Solid draft, with a few good moves you can make a strong push."
-        },
-        {
-            "id": 16,
-            "teamCalculatedEvaluation": 8,
-            "description": "With a few moves and good planning, you are in the running for a trophy."
-        },
-        {
-            "id": 17,
-            "teamCalculatedEvaluation": 8.5,
-            "description": "Great picks, you are in a good position to win it all."
-        },
-        {
-            "id": 18,
-            "teamCalculatedEvaluation": 9,
-            "description": "Amazing team, are you an NFL Scout?."
-        },
-        {
-            "id": 19,
-            "teamCalculatedEvaluation": 9.5,
-            "description": "If you don't win that shmoney, you tried to lose."
-        },
-        {
-            "id": 20,
-            "teamCalculatedEvaluation": 10,
-            "description": "The best team ever created. Enjoy your Fantasy SuperBowl Trophy."
-        }
-    ],
-    "players": [
-        {
-            "id": 1,
-            "name": "Tom Brady",
-            "teamId": 29,
-            "metricEval": 10,
-            "oneLiner": "The G.O.A.T. Draft him.",
-            "playerpositionId": 1
-        },
-        {
-            "id": 2,
-            "name": "Dak Prescott",
-            "teamId": 9,
-            "metricEval": 9.7,
-            "oneLiner": "Dak goes ham. Premium.",
-            "playerpositionId": 1
-        },
-        {
-            "id": 3,
-            "name": "Josh Allen",
-            "teamId": 4,
-            "metricEval": 9.2,
-            "oneLiner": "Dual-Threat with a Rocket arm. Pick him.",
-            "playerpositionId": 1
-        },
-        {
-            "id": 4,
-            "name": "Lamar Jackson",
-            "teamId": 3,
-            "metricEval": 10,
-            "oneLiner": "The running G.O.A.T. Draft him.",
-            "playerpositionId": 1
-        },
-        {
-            "id": 5,
-            "name": "Kirk Cousins",
-            "teamId": 20,
-            "metricEval": 8.2,
-            "oneLiner": "Above average player when he doesn't line up behind the wrong lineman.",
-            "playerpositionId": 1
-        },
-        {
-            "id": 6,
-            "name": "Patrick Mahomes",
-            "teamId": 16,
-            "metricEval": 10,
-            "oneLiner": "The baby G.O.A.T. New era greatness.",
-            "playerpositionId": 1
-        },
-        {
-            "id": 7,
-            "name": "Kyler Murray",
-            "teamId": 1,
-            "metricEval": 9.3,
-            "oneLiner": "Baby Yoda on steriods. A top pick.",
-            "playerpositionId": 1
-        },
-        {
-            "id": 8,
-            "name": "Derek Carr",
-            "teamId": 17,
-            "metricEval": 8.5,
-            "oneLiner": "A solid QB. Better than his brother.",
-            "playerpositionId": 1
-        },
-        {
-            "id": 9,
-            "name": "Matthew Stafford",
-            "teamId": 18,
-            "metricEval": 8.2,
-            "oneLiner": "The broken G.O.A.T. Tough as nails and plays through injuries. Always injured.",
-            "playerpositionId": 1
-        },
-        {
-            "id": 10,
-            "name": "Justin Herbert",
-            "teamId": 32,
-            "metricEval": 8.9,
-            "oneLiner": "Upcoming new era QB. Draft him if the goats are gone.",
-            "playerpositionId": 1
-        },
-        {
-            "id": 11,
-            "name": "Jameis Winston",
-            "teamId": 22,
-            "metricEval": 7.1,
-            "oneLiner": "Very lucky he's getting another shot somewhere else. Don't draft.",
-            "playerpositionId": 1
-        },
-        {
-            "id": 12,
-            "name": "Carson Wentz",
-            "teamId": 14,
-            "metricEval": 6.7,
-            "oneLiner": "When not hurt he's even worse on the field. Don't even sniff this one.",
-            "playerpositionId": 1
-        },
-        {
-            "id": 13,
-            "name": "Joe Burrow",
-            "teamId": 7,
-            "metricEval": 7.9,
-            "oneLiner": "A good option, will get better as the year goes on. ",
-            "playerpositionId": 1
-        },
-        {
-            "id": 14,
-            "name": "Russell Wilson",
-            "teamId": 28,
-            "metricEval": 9.4,
-            "oneLiner": "A true winner and a magician in the pocket.",
-            "playerpositionId": 1
-        },
-        {
-            "id": 15,
-            "name": "Jimmy Garoppolo",
-            "teamId": 27,
-            "metricEval": 7.4,
-            "oneLiner": "Jimmy G shouldn't be your starter but he can ball out when he's not throwing the ball to the other team.",
-            "playerpositionId": 1
-        },
-        {
-            "id": 16,
-            "name": "Tua Tagovailoa",
-            "teamId": 19,
-            "metricEval": 7.5,
-            "oneLiner": "Needs more weapons around him. He's aight.",
-            "playerpositionId": 1
-        },
-        {
-            "id": 17,
-            "name": "Taylor Heinicke",
-            "teamId": 31,
-            "metricEval": 7.2,
-            "oneLiner": "Wouldn't want him as my QB but he can ball out when consistent.",
-            "playerpositionId": 1
-        },
-        {
-            "id": 18,
-            "name": "Tyrod Taylor",
-            "teamId": 13,
-            "metricEval": 6.9,
-            "oneLiner": "Serviceable backup but don't start him unless absolutely necessary.",
-            "playerpositionId": 1
-        },
-        {
-            "id": 19,
-            "name": "Jalen Hurts",
-            "teamId": 25,
-            "metricEval": 6.5,
-            "oneLiner": "Probably getting benched in real life. Stay away.",
-            "playerpositionId": 1
-        },
-        {
-            "id": 20,
-            "name": "Teddy Bridgewater",
-            "teamId": 10,
-            "metricEval": 7.0,
-            "oneLiner": "Donate him an ACL, PCL, and MCL and he can play football. About it.",
-            "playerpositionId": 1
-        },
-        {
-            "id": 21,
-            "name": "Matt Ryan",
-            "teamId": 2,
-            "metricEval": 8,
-            "oneLiner": "How are you going to lose when you're up 27-3 in the SuperBowl. Enough said.",
-            "playerpositionId": 1
-        },
-        {
-            "id": 21,
-            "name": "Mac Jones",
-            "teamId": 32,
-            "metricEval": 8.3,
-            "oneLiner": "Mac Attack doesn't need a 6-pack. Draft him.",
-            "playerpositionId": 1
-        },
-        {
-            "id": 23,
-            "name": "Jared Goff",
-            "teamId": 11,
-            "metricEval": 6.6,
-            "oneLiner": "Please don't do it to yourself. Pick someone else.",
-            "playerpositionId": 1
-        },
-        {
-            "id": 24,
-            "name": "Justin Fields",
-            "teamId": 6,
-            "metricEval": 6.9,
-            "oneLiner": "Still learning but could progress through the season. A good backup option.",
-            "playerpositionId": 1
-        },
-        {
-            "id": 25,
-            "name": "Trevor Lawrence",
-            "teamId": 15,
-            "metricEval": 7.2,
-            "oneLiner": "Don't do it, nothing flashy here and not a good supporting cast.",
-            "playerpositionId": 1
-        },
-        {
-            "id": 26,
-            "name": "Ben Roethilsberger",
-            "teamId": 26,
-            "metricEval": 5.2,
-            "oneLiner": "Old and washed Hall of Famer. Wayyyyyy past his prime. Don't draft.",
-            "playerpositionId": 1
-        },
-        {
-            "id": 27,
-            "name": "Zach Wilson",
-            "teamId": 24,
-            "metricEval": 5.8,
-            "oneLiner": "A chance to learn and be better.....but it's the Jets.... don't draft.",
-            "playerpositionId": 1
-        },
-        {
-            "id": 28,
-            "name": "Daniel Jones",
-            "teamId": 23,
-            "metricEval": 4.3,
-            "oneLiner": "Almost certain he has more turnovers than touchdowns. Not even going to look it up. Don't draft.",
-            "playerpositionId": 1
-        },
-        {
-            "id": 29,
-            "name": "Ryan Tannehill",
-            "teamId": 30,
-            "metricEval": 7.8,
-            "oneLiner": "A good QB when all of his support is there. A good backup option.",
-            "playerpositionId": 1
-        },
-        {
-            "id": 30,
-            "name": "Baker Mayfield",
-            "teamId": 8,
-            "metricEval": 7.9,
-            "oneLiner": "Inconsistent but good enough to start if needed in a pinch.",
-            "playerpositionId": 1
-        },
-        {
-            "id": 31,
-            "name": "Aaron Rodgers",
-            "teamId": 12,
-            "metricEval": 9.7,
-            "oneLiner": "A great QB when he's not lying to people.",
-            "playerpositionId": 1
-        },
-        {
-            "id": 32,
-            "name": "Cam Newton",
-            "teamId": 5,
-            "metricEval": 3.7,
-            "oneLiner": "Just retire big homie. Please don't draft him on your team. You'll lose.",
-            "playerpositionId": 1
-        },
-        {
-            "id": 33,
-            "name": "Christian McCaffrey",
-            "teamId": 5,
-            "metricEval": 9.9,
-            "oneLiner": "A monster athlete who can do it all when not on the injury report.",
-            "playerpositionId": 2
-        },
-        {
-            "id": 34,
-            "name": "Derrick Henry",
-            "teamId": 30,
-            "metricEval": 10,
-            "oneLiner": "The best running back in the league. All hail King Henry.",
-            "playerpositionId": 2
-        },
-        {
-            "id": 35,
-            "name": "Dalvin Cook",
-            "teamId": 20,
-            "metricEval": 9.5,
-            "oneLiner": "A good choice. Just hope he doesn't get hurt.",
-            "playerpositionId": 2
-        },
-        {
-            "id": 36,
-            "name": "Nick Chubb",
-            "teamId": 8,
-            "metricEval": 9.6,
-            "oneLiner": "Amazing choice. Has to split time with Kareem Hunt but can still eat.",
-            "playerpositionId": 2
-        },
-        {
-            "id": 37,
-            "name": "Ezekiel Elliot",
-            "teamId": 9,
-            "metricEval": 9.2,
-            "oneLiner": "Loves to eat. On the field and off.... good value if taken past the mid first round.",
-            "playerpositionId": 2
-        },
-        {
-            "id": 38,
-            "name": "Alvin Kamara",
-            "teamId": 22,
-            "metricEval": 9.3,
-            "oneLiner": "Point Per Reception League Monster. Will put up crazy points.",
-            "playerpositionId": 2
-        },
-        {
-            "id": 39,
-            "name": "Austin Ekeler",
-            "teamId": 32,
-            "metricEval": 8.8,
-            "oneLiner": "An all-around great small running back. He'll get you tons of points.",
-            "playerpositionId": 2
-        },
-        {
-            "id": 40,
-            "name": "Aaron Jones",
-            "teamId": 12,
-            "metricEval": 9.1,
-            "oneLiner": "Very solid running back on a good team. Can put up huge games and then go MIA in that offense.",
-            "playerpositionId": 2
-        },
-        {
-            "id": 41,
-            "name": "Jonahan Taylor",
-            "teamId": 14,
-            "metricEval": 9.5,
-            "oneLiner": "Upcoming workhorse who will only get better. Draft if you can.",
-            "playerpositionId": 2
-        },
-        {
-            "id": 42,
-            "name": "Saquon Barkley",
-            "teamId": 23,
-            "metricEval": 8.5,
-            "oneLiner": "Could be the best running back in the league but he can NEVER stay on the field longer than the injury report. Draft responsibly.",
-            "playerpositionId": 2
-        },
-        {
-            "id": 43,
-            "name": "Najee Harris",
-            "teamId": 26,
-            "metricEval": 8.3,
-            "oneLiner": "Going to be great in a few years. Solid pick right now.",
-            "playerpositionId": 2
-        },
-        {
-            "id": 44,
-            "name": "Joe Mixon",
-            "teamId": 7,
-            "metricEval": 9.2,
-            "oneLiner": "When he's punching in touchdowns and not people, he's really good.",
-            "playerpositionId": 2
-        },
-        {
-            "id": 45,
-            "name": "Antonio Gibson",
-            "teamId": 31,
-            "metricEval": 7.4,
-            "oneLiner": "A good flex option, nothing more. Don't let him be in your two RB slots....don't do it...",
-            "playerpositionId": 2
-        },
-        {
-            "id": 46,
-            "name": "Clyde Edwards-Helaire",
-            "teamId": 16,
-            "metricEval": 7.6,
-            "oneLiner": "Being on one of the top offenses ever seen does him wonders but he can be overshadowed. A good pickup.",
-            "playerpositionId": 2
-        },
-        {
-            "id": 47,
-            "name": "David Montgomery",
-            "teamId": 6,
-            "metricEval": 7.7,
-            "oneLiner": "Good talent but on a bad offense. Draft at your own risk.",
-            "playerpositionId": 2
-        },
-        {
-            "id": 48,
-            "name": "Chris Carson",
-            "teamId": 28,
-            "metricEval": 7.6,
-            "oneLiner": "Just Meh. Up to you on this one pal.",
-            "playerpositionId": 2
-        },
-        {
-            "id": 49,
-            "name": "James Robinson",
-            "teamId": 15,
-            "metricEval": 8.1,
-            "oneLiner": "One of the only good pieces on the Jaguars offense.",
-            "playerpositionId": 2
-        },
-        {
-            "id": 50,
-            "name": "Josh Jacobs",
-            "teamId": 17,
-            "metricEval": 8.4,
-            "oneLiner": "Should put up good points at any point during the season. Inconsistent but worth a pick.",
-            "playerpositionId": 2
-        },
-        {
-            "id": 51,
-            "name": "D'Andre Swift",
-            "teamId": 11,
-            "metricEval": 7.2,
-            "oneLiner": "Spectacular talent when he's not in the trainer's office on the injury report. Be wary",
-            "playerpositionId": 2
-        },
-        {
-            "id": 52,
-            "name": "Gus Edwards",
-            "teamId": 3,
-            "metricEval": 6.3,
-            "oneLiner": "Not even as good at running as his QB. Only worth starting if absolutely necessary.",
-            "playerpositionId": 2
-        },
-        {
-            "id": 53,
-            "name": "Darrell Henderson",
-            "teamId": 18,
-            "metricEval": 6,
-            "oneLiner": "Decent but not someone you want to pick up.",
-            "playerpositionId": 2
-        },
-        {
-            "id": 54,
-            "name": "Miles Sanders",
-            "teamId": 25,
-            "metricEval": 6.8,
-            "oneLiner": "Good when the offense works but only worth a late round pick.",
-            "playerpositionId": 2
-        },
-        {
-            "id": 55,
-            "name": "Mike Davis",
-            "teamId": 2,
-            "metricEval": 6.3,
-            "oneLiner": "A late round selection but he's on a very bad offense. Stay away.",
-            "playerpositionId": 2
-        },
-        {
-            "id": 56,
-            "name": "Myles Gaskin",
-            "teamId": 19,
-            "metricEval": 5.8,
-            "oneLiner": "Eww.",
-            "playerpositionId": 2
-        },
-        {
-            "id": 57,
-            "name": "Damien Harris",
-            "teamId": 21,
-            "metricEval": 5.9,
-            "oneLiner": "Talent isn't the problem, opportunity is. Rated low simply because he's in a 3-headed system. Some value late.",
-            "playerpositionId": 2
-        },
-        {
-            "id": 58,
-            "name": "Melvin Gordon",
-            "teamId": 10,
-            "metricEval": 6.5,
-            "oneLiner": "When not on injured reserve he's decent. Don't pick though.",
-            "playerpositionId": 2
-        },
-        {
-            "id": 59,
-            "name": "Raheem Mostert",
-            "teamId": 27,
-            "metricEval": 5.6,
-            "oneLiner": "He's so fast. One of the fastest. When he's not in a wheelchair. It's a no for me dawg.",
-            "playerpositionId": 2
-        },
-        {
-            "id": 60,
-            "name": "Michael Carter",
-            "teamId": 24,
-            "metricEval": 4,
-            "oneLiner": "He's on the Jets. RIP.",
-            "playerpositionId": 2
-        },
-        {
-            "id": 61,
-            "name": "James Connor",
-            "teamId": 1,
-            "metricEval": 6.8,
-            "oneLiner": "Inconsistent and points come in bunches when used. Late round pick.",
-            "playerpositionId": 2
-        },
-        {
-            "id": 62,
-            "name": "Jamaal Williams",
-            "teamId": 11,
-            "metricEval": 5.5,
-            "oneLiner": "He's awesome as a person but as a player on the Lions.....big nope.",
-            "playerpositionId": 2
-        },
-        {
-            "id": 63,
-            "name": "Leonard Fournette ",
-            "teamId": 29,
-            "metricEval": 6,
-            "oneLiner": "Lenny is aight but points come in bunches. Late round value.",
-            "playerpositionId": 2
-        },
-        {
-            "id": 64,
-            "name": "Devin Singletary",
-            "teamId": 4,
-            "metricEval": 7,
-            "oneLiner": "He's good but shares a workload. Will get catches and could be a decent flex option. Mid round value.",
-            "playerpositionId": 2
-        },
-        {
-            "id": 65,
-            "name": "Devante Adams",
-            "teamId": 12,
-            "metricEval": 9.8,
-            "oneLiner": "A point machine. This is the best grab you can get.",
-            "playerpositionId": 3
-        },
-        {
-            "id": 66,
-            "name": "Stefon Diggs",
-            "teamId": 4,
-            "metricEval": 9.4,
-            "oneLiner": "Tons of catches. All the catches. Grab him if you can.",
-            "playerpositionId": 3
-        },
-        {
-            "id": 67,
-            "name": "Tyreek Hill",
-            "teamId": 16,
-            "metricEval": 9.2,
-            "oneLiner": "Points come in bunches and often. Very streaky but worth a top pick.",
-            "playerpositionId": 3
-        },
-        {
-            "id": 68,
-            "name": "DeAndre Hopkins",
-            "teamId": 1,
-            "metricEval": 9.9,
-            "oneLiner": "Catches everything and worth every bit of a top pick. Best WR in the NFL?",
-            "playerpositionId": 3
-        },
-        {
-            "id": 69,
-            "name": "DK Metcalf",
-            "teamId": 28,
-            "metricEval": 9.0,
-            "oneLiner": "Is he a human? Superman? We're not sure yet....pick him up anyway.",
-            "playerpositionId": 3
-        },
-        {
-            "id": 70,
-            "name": "Keenan Allen",
-            "teamId": 32,
-            "metricEval": 8.8,
-            "oneLiner": "A receptions master. He can catch anything when he's not catching injuries.",
-            "playerpositionId": 3
-        },
-        {
-            "id": 71,
-            "name": "AJ Brown",
-            "teamId": 30,
-            "metricEval": 8.8,
-            "oneLiner": "One of the young ones being great. Will only get better. Worthy of a top pick.",
-            "playerpositionId": 3
-        },
-        {
-            "id": 72,
-            "name": "Allen Robinson",
-            "teamId": 6,
-            "metricEval": 8.7,
-            "oneLiner": "Criminally underrated talent when he's on the field and not the injury cart. A good pickup.",
-            "playerpositionId": 3
-        },
-        {
-            "id": 73,
-            "name": "Justin Jefferson",
-            "teamId": 20,
-            "metricEval": 9.1,
-            "oneLiner": "A young force in the game that will only get better as the season goes on. A top pick.",
-            "playerpositionId": 3
-        },
-        {
-            "id": 74,
-            "name": "Scary `Terry` McLaurin",
-            "teamId": 30,
-            "metricEval": 8.8,
-            "oneLiner": "He's scary good at everything. His quarterback situation is scarier...",
-            "playerpositionId": 3
-        },
-        {
-            "id": 75,
-            "name": "CeeDee Lamb",
-            "teamId": 9,
-            "metricEval": 8.6,
-            "oneLiner": "CeeDee is going to see deez TD's. Pick him up.",
-            "playerpositionId": 3
-        },
-        {
-            "id": 76,
-            "name": "Cooper Kupp",
-            "teamId": 18,
-            "metricEval": 9.7,
-            "oneLiner": "On a historic pace to be one of the best WR in the NFL. Whether that's true or not, he'll get you crazy points.",
-            "playerpositionId": 3
-        },
-        {
-            "id": 77,
-            "name": "Mike Evans",
-            "teamId": 29,
-            "metricEval": 8.9,
-            "oneLiner": "A big-bodied master at the point of catch. He's gonna get catches and TD's. Pick him up.",
-            "playerpositionId": 3
-        },
-        {
-            "id": 78,
-            "name": "Diontae Johnson",
-            "teamId": 26,
-            "metricEval": 8.2,
-            "oneLiner": "A good player with a bad qb situation. Stay away or pick at your own risk.",
-            "playerpositionId": 3
-        },
-        {
-            "id": 79,
-            "name": "DJ Moore",
-            "teamId": 32,
-            "metricEval": 8.3,
-            "oneLiner": "A solid choice in the later rounds. He'll get lots of receptions.",
-            "playerpositionId": 3
-        },
-        {
-            "id": 80,
-            "name": "Jerry Jeudy",
-            "teamId": 10,
-            "metricEval": 7.7,
-            "oneLiner": "The best WR on their team but with a shaky QB situation, pick at your own risk.",
-            "playerpositionId": 3
-        },
-        {
-            "id": 81,
-            "name": "JaMarr Chase",
-            "teamId": 7,
-            "metricEval": 9.3,
-            "oneLiner": "This Rookie of the Year will be an all-time great if he keeps playing like he is. He could vie for your top picks.",
-            "playerpositionId": 3
-        },
-        {
-            "id": 82,
-            "name": "Brandon Aiyuk",
-            "teamId": 27,
-            "metricEval": 7.6,
-            "oneLiner": "A good late round pick. Overshadowed by Deebo who takes all the accolades.",
-            "playerpositionId": 3
-        },
-        {
-            "id": 83,
-            "name": "Kenny Golladay",
-            "teamId": 23,
-            "metricEval": 7.0,
-            "oneLiner": "Does he play football or just lay on the injury table. Undefined. Wouldn't pick.",
-            "playerpositionId": 3
-        },
-        {
-            "id": 84,
-            "name": "DeVonta Smith",
-            "teamId": 25,
-            "metricEval": 7.5,
-            "oneLiner": "They don't call him the `Slim Reaper` for nothing. Get this guy at good value in the mid rounds.",
-            "playerpositionId": 3
-        },
-        {
-            "id": 85,
-            "name": "Corey Davis",
-            "teamId": 24,
-            "metricEval": 6.8,
-            "oneLiner": "He'll get points on and off. More to do with his QB situation than him. A scary selection but could be worth in the late rounds.",
-            "playerpositionId": 3
-        },
-        {
-            "id": 86,
-            "name": "Laviska Shenault Jr.",
-            "teamId": 15,
-            "metricEval": 5.7,
-            "oneLiner": "Is he a WR or a RB? No one will ever know as long as he plays for the Jags.",
-            "playerpositionId": 3
-        },
-        {
-            "id": 87,
-            "name": "Michael Pittman",
-            "teamId": 14,
-            "metricEval": 6,
-            "oneLiner": "Tall and talented. Now he just needs a QB to throw it to him. Risky pick.",
-            "playerpositionId": 3
-        },
-        {
-            "id": 88,
-            "name": "Will Fuller",
-            "teamId": 19,
-            "metricEval": 1,
-            "oneLiner": "I'm pretty sure he's the entrepreneur of the injured reserve. Made of glass. Don't do this to yourself, just pass.",
-            "playerpositionId": 3
-        },
-        {
-            "id": 89,
-            "name": "Jarvis Landry",
-            "teamId": 8,
-            "metricEval": 7.2,
-            "oneLiner": "Tons of catches but nothing else. Great in point per reception leagues but otherwise meh. Later round pick.",
-            "playerpositionId": 3
-        },
-        {
-            "id": 90,
-            "name": "Brandon Cooks",
-            "teamId": 13,
-            "metricEval": 6.3,
-            "oneLiner": "Still worth a late round flyer. He's great but his QB situation is not. You can't catch what isn't thrown to you. Risky.",
-            "playerpositionId": 3
-        },
-        {
-            "id": 91,
-            "name": "Darnell Mooney",
-            "teamId": 6,
-            "metricEval": 5.4,
-            "oneLiner": "Not bad but not good. He can ghost you some weeks and put up decent numbers others.",
-            "playerpositionId": 3
-        },
-        {
-            "id": 92,
-            "name": "Michael Thomas",
-            "teamId": 22,
-            "metricEval": 8.4,
-            "oneLiner": "Is a great talent but shaky injury concerns and inconsistent QB play lowers his rating. A risky high pick investment.",
-            "playerpositionId": 3
-        },
-        {
-            "id": 93,
-            "name": "Marquise Brown",
-            "teamId": 3,
-            "metricEval": 6.4,
-            "oneLiner": "His name isn't Mark Andrews on the Ravens so does he even catch the football? Not sure...",
-            "playerpositionId": 3
-        },
-        {
-            "id": 94,
-            "name": "Russel Gage",
-            "teamId": 2,
-            "metricEval": 2.2,
-            "oneLiner": "Who is this? Does his QB even know?",
-            "playerpositionId": 3
-        },
-        {
-            "id": 95,
-            "name": "Jakobi Meyers",
-            "teamId": 21,
-            "metricEval": 4.3,
-            "oneLiner": "The kid is scared of the endzone but he pulls in catches. A very weird risk-reward pick.",
-            "playerpositionId": 3
-        },
-        {
-            "id": 96,
-            "name": "Bryan Edwards",
-            "teamId": 17,
-            "metricEval": 4,
-            "oneLiner": "He can play football. That's good. Not sure if that should convince you to pick him.",
-            "playerpositionId": 3
-        },
-        {
-            "id": 97,
-            "name": "Amon-Ra St. Brown",
-            "teamId": 11,
-            "metricEval": 0.2,
-            "oneLiner": "He's on the Lions with Jared Goff at QB. Don't hurt yourself, just pass.",
-            "playerpositionId": 3
-        },
-        {
-            "id": 98,
-            "name": "Travis Kelce",
-            "teamId": 16,
-            "metricEval": 10,
-            "oneLiner": "The safety blanket of the baby GOAT, a must have.",
-            "playerpositionId": 4
-        },
-        {
-            "id": 99,
-            "name": "Darren Waller",
-            "teamId": 17,
-            "metricEval": 9.8,
-            "oneLiner": "He's basically a really tall and fast WR that can play TE. Absolutely draft.",
-            "playerpositionId": 4
-        },
-        {
-            "id": 100,
-            "name": "George Kittle",
-            "teamId": 27,
-            "metricEval": 9.9,
-            "oneLiner": "Could be the best TE in the game. He'll produce but needs a better QB situation to really flourish.",
-            "playerpositionId": 4
-        },
-        {
-            "id": 101,
-            "name": "Mark Andrews",
-            "teamId": 3,
-            "metricEval": 9.4,
-            "oneLiner": "Crazy good production with lots of opportunities. Draft him.",
-            "playerpositionId": 4
-        },
-        {
-            "id": 102,
-            "name": "Kyle Pitts",
-            "teamId": 2,
-            "metricEval": 8.8,
-            "oneLiner": "The new star of the TE position...but he's on the Falcons. Meh. Solid pickup.",
-            "playerpositionId": 4
-        },
-        {
-            "id": 103,
-            "name": "TJ Hockenson",
-            "teamId": 11,
-            "metricEval": 8.5,
-            "oneLiner": "Very good but on the Lions with Jared Goff at QB. Luckily he gets lots of targets.",
-            "playerpositionId": 4
-        },
-        {
-            "id": 104,
-            "name": "Logan Thomas",
-            "teamId": 31,
-            "metricEval": 5,
-            "oneLiner": "When he's alive he isn't bad, but never alive. Pass.",
-            "playerpositionId": 4
-        },
-        {
-            "id": 105,
-            "name": "Robert Tonyan",
-            "teamId": 12,
-            "metricEval": 6.6,
-            "oneLiner": "A decent pickup if he sees the field. Can ghost games and show up big for others. Inconsistent.",
-            "playerpositionId": 4
-        },
-        {
-            "id": 106,
-            "name": "Jonnu Smith",
-            "teamId": 21,
-            "metricEval": 7,
-            "oneLiner": "Would be better if he stayed on the Titans.",
-            "playerpositionId": 4
-        },
-        {
-            "id": 107,
-            "name": "Noah Fant",
-            "teamId": 10,
-            "metricEval": 7.3,
-            "oneLiner": "Top tier talent but needs a good team around him.",
-            "playerpositionId": 4
-        },
-        {
-            "id": 108,
-            "name": "Gerald Everett",
-            "teamId": 28,
-            "metricEval": 5.8,
-            "oneLiner": "Only pick unless you have to. Too much good talent around him to have a ton of opportunities.",
-            "playerpositionId": 4
-        },
-        {
-            "id": 109,
-            "name": "Tyler Higbee",
-            "teamId": 18,
-            "metricEval": 6,
-            "oneLiner": "Decent TE. He'll get some opportunities. Streaky. Later round pick worthy.",
-            "playerpositionId": 4
-        },
-        {
-            "id": 110,
-            "name": "Dallas Goedert",
-            "teamId": 25,
-            "metricEval": 6.7,
-            "oneLiner": "Not a bad pick later. QB play is inconsistent but he has talent to put up big numbers if that can stabilize.",
-            "playerpositionId": 4
-        },
-        {
-            "id": 111,
-            "name": "Mike Gesicki",
-            "teamId": 19,
-            "metricEval": 7.4,
-            "oneLiner": "He's great but needs opportunities. Good mid round pick.",
-            "playerpositionId": 4
-        },
-        {
-            "id": 112,
-            "name": "Cole Kmet",
-            "teamId": 6,
-            "metricEval": 3.9,
-            "oneLiner": "The jury is still out on this guy. He seems to be a bust but he's also on a bad Bears offense. Give him a few years to figure it out. Pass.",
-            "playerpositionId": 4
-        },
-        {
-            "id": 113,
-            "name": "Zach Ertz",
-            "teamId": 1,
-            "metricEval": 5.5,
-            "oneLiner": "Does the TE even get used in the Cardinals offense? Who knows, might be worth a late flyer.",
-            "playerpositionId": 4
-        },
-        {
-            "id": 114,
-            "name": "Anthony Firkser",
-            "teamId": 30,
-            "metricEval": 0.7,
-            "oneLiner": "No. Just no.",
-            "playerpositionId": 4
-        },
-        {
-            "id": 115,
-            "name": "Austin Hooper",
-            "teamId": 8,
-            "metricEval": 6.6,
-            "oneLiner": "Not a bad grab later on.",
-            "playerpositionId": 4
-        },
-        {
-            "id": 116,
-            "name": "Rob Gronkowski",
-            "teamId": 29,
-            "metricEval": 7.8,
-            "oneLiner": "The GOAT's favorite target. When he isn't injured, he'll put up points. ",
-            "playerpositionId": 4
-        },
-        {
-            "id": 117,
-            "name": "Evan Engram",
-            "teamId": 23,
-            "metricEval": 6.8,
-            "oneLiner": "This man has too much talent to have Daniel Jones as his QB. Free this man!... but don't draft.",
-            "playerpositionId": 4
-        },
-        {
-            "id": 118,
-            "name": "Blake Jarwin",
-            "teamId": 9,
-            "metricEval": 3.5,
-            "oneLiner": "He's not the other TE on the roster. Don't draft.",
-            "playerpositionId": 4
-        },
-        {
-            "id": 119,
-            "name": "LA Rams Defense",
-            "teamId": 18,
-            "metricEval": 9.5,
-            "oneLiner": "Solid all around. The best in the game.",
-            "playerpositionId": 5
-        },
-        {
-            "id": 120,
-            "name": "Justin Tucker",
-            "teamId": 3,
-            "metricEval": 10,
-            "oneLiner": "Will go down as the best to ever do it if he plays a long career. Must pick.",
-            "playerpositionId": 6
-        }
-        
-
-    ],
-    "playerPositions": [
-        {
-            "id": 1,
-            "Quarterback": 1,
-            "Runningback": 2,
-            "Wide Reciever": 3,
-            "Tight End": 4,
-            "Defense": 5,
-            "Kicker": 6
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "name": "Jacob Cook",
+      "email": "jacob@email.com"
+    },
+    {
+      "name": "Keosha",
+      "email": "Keosha@email.com",
+      "id": 2
+    },
+    {
+      "name": "Chasity",
+      "email": "chasity@email.com",
+      "id": 3
+    },
+    {
+      "name": "Large Randy",
+      "email": "randy@email.com",
+      "id": 4
+    }
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "name": "Arizona Cardinals"
+    },
+    {
+      "id": 2,
+      "name": "Atlanta Falcons"
+    },
+    {
+      "id": 3,
+      "name": "Baltimore Ravens"
+    },
+    {
+      "id": 4,
+      "name": "Buffalo Bills"
+    },
+    {
+      "id": 5,
+      "name": "Carolina Panthers"
+    },
+    {
+      "id": 6,
+      "name": "Chicago Bears"
+    },
+    {
+      "id": 7,
+      "name": "Cincinnati Bengals"
+    },
+    {
+      "id": 8,
+      "name": "Cleveland Browns"
+    },
+    {
+      "id": 9,
+      "name": "Dallas Cowboys"
+    },
+    {
+      "id": 10,
+      "name": "Denver Broncos"
+    },
+    {
+      "id": 11,
+      "name": "Detroit Lions"
+    },
+    {
+      "id": 12,
+      "name": "Green Bay Packers"
+    },
+    {
+      "id": 13,
+      "name": "Houston Texans"
+    },
+    {
+      "id": 14,
+      "name": "Indianapolis Colts"
+    },
+    {
+      "id": 15,
+      "name": "Jacksonville Jaguars"
+    },
+    {
+      "id": 16,
+      "name": "Kansas City Chiefs"
+    },
+    {
+      "id": 17,
+      "name": "Las Vegas Raiders"
+    },
+    {
+      "id": 18,
+      "name": "Los Angeles Rams"
+    },
+    {
+      "id": 19,
+      "name": "Miami Dolphins"
+    },
+    {
+      "id": 20,
+      "name": "Minnesota Vikings"
+    },
+    {
+      "id": 21,
+      "name": "New England Patriots"
+    },
+    {
+      "id": 22,
+      "name": "New Orleans Saints"
+    },
+    {
+      "id": 23,
+      "name": "New York Giants"
+    },
+    {
+      "id": 24,
+      "name": "New York Jets"
+    },
+    {
+      "id": 25,
+      "name": "Philadelphia Eagles"
+    },
+    {
+      "id": 26,
+      "name": "Pittsburgh Steelers"
+    },
+    {
+      "id": 27,
+      "name": "San Francisco 49ers"
+    },
+    {
+      "id": 28,
+      "name": "Seattle Seahawks"
+    },
+    {
+      "id": 29,
+      "name": "Tampa Bay Buccaneers"
+    },
+    {
+      "id": 30,
+      "name": "Tennessee Titans"
+    },
+    {
+      "id": 31,
+      "name": "Washington Football Team"
+    },
+    {
+      "id": 32,
+      "name": "Los Angeles Chargers"
+    }
+  ],
+  "userFavorites": [
+    {
+      "id": 1,
+      "userId": 1,
+      "teamId": 30
+    }
+  ],
+  "teamEvals": [
+    {
+      "id": 1,
+      "teamCalculatedEvaluation": 0.5,
+      "description": "RIP. Not going to lie, this is horrid. Good luck winning a game. This team can't be helped."
+    },
+    {
+      "id": 2,
+      "teamCalculatedEvaluation": 1,
+      "description": "You're going to need a miracle to win a game. Start praying for the NFL overlords to shine upon you."
+    },
+    {
+      "id": 3,
+      "teamCalculatedEvaluation": 1.5,
+      "description": "You can't win with this. Other players will laugh at this team. Sorry."
+    },
+    {
+      "id": 4,
+      "teamCalculatedEvaluation": 2,
+      "description": "At least it's not a dumpster fire but it's going to be hard to win."
+    },
+    {
+      "id": 5,
+      "teamCalculatedEvaluation": 2.5,
+      "description": "You may have one good player here but you better be swapping some players out in the free agency pool."
+    },
+    {
+      "id": 6,
+      "teamCalculatedEvaluation": 3,
+      "description": "Not the best but you have some core players you want to keep. As is, you are not winning much but make some changes and you can win some games."
+    },
+    {
+      "id": 7,
+      "teamCalculatedEvaluation": 3.5,
+      "description": "This is rough but you have core players to keep or trade one for multiple good players. It's going to be hard but you can win."
+    },
+    {
+      "id": 8,
+      "teamCalculatedEvaluation": 4,
+      "description": "Not the worst but not the best. You can win games but changes are needed to push for any hint of the playoffs."
+    },
+    {
+      "id": 9,
+      "teamCalculatedEvaluation": 4.5,
+      "description": "Below average draft. You're going to need to make changes. Trades, free agents, well-timed plays are going to be needed to push for playoffs."
+    },
+    {
+      "id": 10,
+      "teamCalculatedEvaluation": 5,
+      "description": "Slightly below average draft. You're going to struggle but the free agent wire will be your best friend. Watch it often."
+    },
+    {
+      "id": 11,
+      "teamCalculatedEvaluation": 5.5,
+      "description": "Average draft. You can win with this and you can lose with this."
+    },
+    {
+      "id": 12,
+      "teamCalculatedEvaluation": 6,
+      "description": "Slightly above average draft. You could run with this but a trade or key free agent pickup will be needed for a deep run."
+    },
+    {
+      "id": 13,
+      "teamCalculatedEvaluation": 6.5,
+      "description": "Above average draft. With a few changes throughout the year you can make a playoff push."
+    },
+    {
+      "id": 14,
+      "teamCalculatedEvaluation": 7,
+      "description": "Good job, you're going to need a few key pickups or drops at the right time, but you can win a lot of games."
+    },
+    {
+      "id": 15,
+      "teamCalculatedEvaluation": 7.5,
+      "description": "Solid draft, with a few good moves you can make a strong push."
+    },
+    {
+      "id": 16,
+      "teamCalculatedEvaluation": 8,
+      "description": "With a few moves and good planning, you are in the running for a trophy."
+    },
+    {
+      "id": 17,
+      "teamCalculatedEvaluation": 8.5,
+      "description": "Great picks, you are in a good position to win it all."
+    },
+    {
+      "id": 18,
+      "teamCalculatedEvaluation": 9,
+      "description": "Amazing team, are you an NFL Scout?."
+    },
+    {
+      "id": 19,
+      "teamCalculatedEvaluation": 9.5,
+      "description": "If you don't win that shmoney, you tried to lose."
+    },
+    {
+      "id": 20,
+      "teamCalculatedEvaluation": 10,
+      "description": "The best team ever created. Enjoy your Fantasy SuperBowl Trophy."
+    }
+  ],
+  "players": [
+    {
+      "id": 1,
+      "name": "Tom Brady",
+      "teamId": 29,
+      "metricEval": 10,
+      "oneLiner": "The G.O.A.T. Draft him.",
+      "playerPositionId": 1
+    },
+    {
+      "id": 2,
+      "name": "Dak Prescott",
+      "teamId": 9,
+      "metricEval": 9.7,
+      "oneLiner": "Dak goes ham. Premium.",
+      "playerPositionId": 1
+    },
+    {
+      "id": 3,
+      "name": "Josh Allen",
+      "teamId": 4,
+      "metricEval": 9.2,
+      "oneLiner": "Dual-Threat with a Rocket arm. Pick him.",
+      "playerPositionId": 1
+    },
+    {
+      "id": 4,
+      "name": "Lamar Jackson",
+      "teamId": 3,
+      "metricEval": 10,
+      "oneLiner": "The running G.O.A.T. Draft him.",
+      "playerPositionId": 1
+    },
+    {
+      "id": 5,
+      "name": "Kirk Cousins",
+      "teamId": 20,
+      "metricEval": 8.2,
+      "oneLiner": "Above average player when he doesn't line up behind the wrong lineman.",
+      "playerPositionId": 1
+    },
+    {
+      "id": 6,
+      "name": "Patrick Mahomes",
+      "teamId": 16,
+      "metricEval": 10,
+      "oneLiner": "The baby G.O.A.T. New era greatness.",
+      "playerPositionId": 1
+    },
+    {
+      "id": 7,
+      "name": "Kyler Murray",
+      "teamId": 1,
+      "metricEval": 9.3,
+      "oneLiner": "Baby Yoda on steriods. A top pick.",
+      "playerPositionId": 1
+    },
+    {
+      "id": 8,
+      "name": "Derek Carr",
+      "teamId": 17,
+      "metricEval": 8.5,
+      "oneLiner": "A solid QB. Better than his brother.",
+      "playerPositionId": 1
+    },
+    {
+      "id": 9,
+      "name": "Matthew Stafford",
+      "teamId": 18,
+      "metricEval": 8.2,
+      "oneLiner": "The broken G.O.A.T. Tough as nails and plays through injuries. Always injured.",
+      "playerPositionId": 1
+    },
+    {
+      "id": 10,
+      "name": "Justin Herbert",
+      "teamId": 32,
+      "metricEval": 8.9,
+      "oneLiner": "Upcoming new era QB. Draft him if the goats are gone.",
+      "playerPositionId": 1
+    },
+    {
+      "id": 11,
+      "name": "Jameis Winston",
+      "teamId": 22,
+      "metricEval": 7.1,
+      "oneLiner": "Very lucky he's getting another shot somewhere else. Don't draft.",
+      "playerPositionId": 1
+    },
+    {
+      "id": 12,
+      "name": "Carson Wentz",
+      "teamId": 14,
+      "metricEval": 6.7,
+      "oneLiner": "When not hurt he's even worse on the field. Don't even sniff this one.",
+      "playerPositionId": 1
+    },
+    {
+      "id": 13,
+      "name": "Joe Burrow",
+      "teamId": 7,
+      "metricEval": 7.9,
+      "oneLiner": "A good option, will get better as the year goes on. ",
+      "playerPositionId": 1
+    },
+    {
+      "id": 14,
+      "name": "Russell Wilson",
+      "teamId": 28,
+      "metricEval": 9.4,
+      "oneLiner": "A true winner and a magician in the pocket.",
+      "playerPositionId": 1
+    },
+    {
+      "id": 15,
+      "name": "Jimmy Garoppolo",
+      "teamId": 27,
+      "metricEval": 7.4,
+      "oneLiner": "Jimmy G shouldn't be your starter but he can ball out when he's not throwing the ball to the other team.",
+      "playerPositionId": 1
+    },
+    {
+      "id": 16,
+      "name": "Tua Tagovailoa",
+      "teamId": 19,
+      "metricEval": 7.5,
+      "oneLiner": "Needs more weapons around him. He's aight.",
+      "playerPositionId": 1
+    },
+    {
+      "id": 17,
+      "name": "Taylor Heinicke",
+      "teamId": 31,
+      "metricEval": 7.2,
+      "oneLiner": "Wouldn't want him as my QB but he can ball out when consistent.",
+      "playerPositionId": 1
+    },
+    {
+      "id": 18,
+      "name": "Tyrod Taylor",
+      "teamId": 13,
+      "metricEval": 6.9,
+      "oneLiner": "Serviceable backup but don't start him unless absolutely necessary.",
+      "playerPositionId": 1
+    },
+    {
+      "id": 19,
+      "name": "Jalen Hurts",
+      "teamId": 25,
+      "metricEval": 6.5,
+      "oneLiner": "Probably getting benched in real life. Stay away.",
+      "playerPositionId": 1
+    },
+    {
+      "id": 20,
+      "name": "Teddy Bridgewater",
+      "teamId": 10,
+      "metricEval": 7,
+      "oneLiner": "Donate him an ACL, PCL, and MCL and he can play football. About it.",
+      "playerPositionId": 1
+    },
+    {
+      "id": 21,
+      "name": "Matt Ryan",
+      "teamId": 2,
+      "metricEval": 8,
+      "oneLiner": "How are you going to lose when you're up 27-3 in the SuperBowl. Enough said.",
+      "playerPositionId": 1
+    },
+    {
+      "id": 22,
+      "name": "Mac Jones",
+      "teamId": 32,
+      "metricEval": 8.3,
+      "oneLiner": "Mac Attack doesn't need a 6-pack. Draft him.",
+      "playerPositionId": 1
+    },
+    {
+      "id": 23,
+      "name": "Jared Goff",
+      "teamId": 11,
+      "metricEval": 6.6,
+      "oneLiner": "Please don't do it to yourself. Pick someone else.",
+      "playerPositionId": 1
+    },
+    {
+      "id": 24,
+      "name": "Justin Fields",
+      "teamId": 6,
+      "metricEval": 6.9,
+      "oneLiner": "Still learning but could progress through the season. A good backup option.",
+      "playerPositionId": 1
+    },
+    {
+      "id": 25,
+      "name": "Trevor Lawrence",
+      "teamId": 15,
+      "metricEval": 7.2,
+      "oneLiner": "Don't do it, nothing flashy here and not a good supporting cast.",
+      "playerPositionId": 1
+    },
+    {
+      "id": 26,
+      "name": "Ben Roethilsberger",
+      "teamId": 26,
+      "metricEval": 5.2,
+      "oneLiner": "Old and washed Hall of Famer. Wayyyyyy past his prime. Don't draft.",
+      "playerPositionId": 1
+    },
+    {
+      "id": 27,
+      "name": "Zach Wilson",
+      "teamId": 24,
+      "metricEval": 5.8,
+      "oneLiner": "A chance to learn and be better.....but it's the Jets.... don't draft.",
+      "playerPositionId": 1
+    },
+    {
+      "id": 28,
+      "name": "Daniel Jones",
+      "teamId": 23,
+      "metricEval": 4.3,
+      "oneLiner": "Almost certain he has more turnovers than touchdowns. Not even going to look it up. Don't draft.",
+      "playerPositionId": 1
+    },
+    {
+      "id": 29,
+      "name": "Ryan Tannehill",
+      "teamId": 30,
+      "metricEval": 7.8,
+      "oneLiner": "A good QB when all of his support is there. A good backup option.",
+      "playerPositionId": 1
+    },
+    {
+      "id": 30,
+      "name": "Baker Mayfield",
+      "teamId": 8,
+      "metricEval": 7.9,
+      "oneLiner": "Inconsistent but good enough to start if needed in a pinch.",
+      "playerPositionId": 1
+    },
+    {
+      "id": 31,
+      "name": "Aaron Rodgers",
+      "teamId": 12,
+      "metricEval": 9.7,
+      "oneLiner": "A great QB when he's not lying to people.",
+      "playerPositionId": 1
+    },
+    {
+      "id": 32,
+      "name": "Cam Newton",
+      "teamId": 5,
+      "metricEval": 3.7,
+      "oneLiner": "Just retire big homie. Please don't draft him on your team. You'll lose.",
+      "playerPositionId": 1
+    },
+    {
+      "id": 33,
+      "name": "Christian McCaffrey",
+      "teamId": 5,
+      "metricEval": 9.9,
+      "oneLiner": "A monster athlete who can do it all when not on the injury report.",
+      "playerPositionId": 2
+    },
+    {
+      "id": 34,
+      "name": "Derrick Henry",
+      "teamId": 30,
+      "metricEval": 10,
+      "oneLiner": "The best running back in the league. All hail King Henry.",
+      "playerPositionId": 2
+    },
+    {
+      "id": 35,
+      "name": "Dalvin Cook",
+      "teamId": 20,
+      "metricEval": 9.5,
+      "oneLiner": "A good choice. Just hope he doesn't get hurt.",
+      "playerPositionId": 2
+    },
+    {
+      "id": 36,
+      "name": "Nick Chubb",
+      "teamId": 8,
+      "metricEval": 9.6,
+      "oneLiner": "Amazing choice. Has to split time with Kareem Hunt but can still eat.",
+      "playerPositionId": 2
+    },
+    {
+      "id": 37,
+      "name": "Ezekiel Elliot",
+      "teamId": 9,
+      "metricEval": 9.2,
+      "oneLiner": "Loves to eat. On the field and off.... good value if taken past the mid first round.",
+      "playerPositionId": 2
+    },
+    {
+      "id": 38,
+      "name": "Alvin Kamara",
+      "teamId": 22,
+      "metricEval": 9.3,
+      "oneLiner": "Point Per Reception League Monster. Will put up crazy points.",
+      "playerPositionId": 2
+    },
+    {
+      "id": 39,
+      "name": "Austin Ekeler",
+      "teamId": 32,
+      "metricEval": 8.8,
+      "oneLiner": "An all-around great small running back. He'll get you tons of points.",
+      "playerPositionId": 2
+    },
+    {
+      "id": 40,
+      "name": "Aaron Jones",
+      "teamId": 12,
+      "metricEval": 9.1,
+      "oneLiner": "Very solid running back on a good team. Can put up huge games and then go MIA in that offense.",
+      "playerPositionId": 2
+    },
+    {
+      "id": 41,
+      "name": "Jonahan Taylor",
+      "teamId": 14,
+      "metricEval": 9.5,
+      "oneLiner": "Upcoming workhorse who will only get better. Draft if you can.",
+      "playerPositionId": 2
+    },
+    {
+      "id": 42,
+      "name": "Saquon Barkley",
+      "teamId": 23,
+      "metricEval": 8.5,
+      "oneLiner": "Could be the best running back in the league but he can NEVER stay on the field longer than the injury report. Draft responsibly.",
+      "playerPositionId": 2
+    },
+    {
+      "id": 43,
+      "name": "Najee Harris",
+      "teamId": 26,
+      "metricEval": 8.3,
+      "oneLiner": "Going to be great in a few years. Solid pick right now.",
+      "playerPositionId": 2
+    },
+    {
+      "id": 44,
+      "name": "Joe Mixon",
+      "teamId": 7,
+      "metricEval": 9.2,
+      "oneLiner": "When he's punching in touchdowns and not people, he's really good.",
+      "playerPositionId": 2
+    },
+    {
+      "id": 45,
+      "name": "Antonio Gibson",
+      "teamId": 31,
+      "metricEval": 7.4,
+      "oneLiner": "A good flex option, nothing more. Don't let him be in your two RB slots....don't do it...",
+      "playerPositionId": 2
+    },
+    {
+      "id": 46,
+      "name": "Clyde Edwards-Helaire",
+      "teamId": 16,
+      "metricEval": 7.6,
+      "oneLiner": "Being on one of the top offenses ever seen does him wonders but he can be overshadowed. A good pickup.",
+      "playerPositionId": 2
+    },
+    {
+      "id": 47,
+      "name": "David Montgomery",
+      "teamId": 6,
+      "metricEval": 7.7,
+      "oneLiner": "Good talent but on a bad offense. Draft at your own risk.",
+      "playerPositionId": 2
+    },
+    {
+      "id": 48,
+      "name": "Chris Carson",
+      "teamId": 28,
+      "metricEval": 7.6,
+      "oneLiner": "Just Meh. Up to you on this one pal.",
+      "playerPositionId": 2
+    },
+    {
+      "id": 49,
+      "name": "James Robinson",
+      "teamId": 15,
+      "metricEval": 8.1,
+      "oneLiner": "One of the only good pieces on the Jaguars offense.",
+      "playerPositionId": 2
+    },
+    {
+      "id": 50,
+      "name": "Josh Jacobs",
+      "teamId": 17,
+      "metricEval": 8.4,
+      "oneLiner": "Should put up good points at any point during the season. Inconsistent but worth a pick.",
+      "playerPositionId": 2
+    },
+    {
+      "id": 51,
+      "name": "D'Andre Swift",
+      "teamId": 11,
+      "metricEval": 7.2,
+      "oneLiner": "Spectacular talent when he's not in the trainer's office on the injury report. Be wary",
+      "playerPositionId": 2
+    },
+    {
+      "id": 52,
+      "name": "Gus Edwards",
+      "teamId": 3,
+      "metricEval": 6.3,
+      "oneLiner": "Not even as good at running as his QB. Only worth starting if absolutely necessary.",
+      "playerPositionId": 2
+    },
+    {
+      "id": 53,
+      "name": "Darrell Henderson",
+      "teamId": 18,
+      "metricEval": 6,
+      "oneLiner": "Decent but not someone you want to pick up.",
+      "playerPositionId": 2
+    },
+    {
+      "id": 54,
+      "name": "Miles Sanders",
+      "teamId": 25,
+      "metricEval": 6.8,
+      "oneLiner": "Good when the offense works but only worth a late round pick.",
+      "playerPositionId": 2
+    },
+    {
+      "id": 55,
+      "name": "Mike Davis",
+      "teamId": 2,
+      "metricEval": 6.3,
+      "oneLiner": "A late round selection but he's on a very bad offense. Stay away.",
+      "playerPositionId": 2
+    },
+    {
+      "id": 56,
+      "name": "Myles Gaskin",
+      "teamId": 19,
+      "metricEval": 5.8,
+      "oneLiner": "Eww.",
+      "playerPositionId": 2
+    },
+    {
+      "id": 57,
+      "name": "Damien Harris",
+      "teamId": 21,
+      "metricEval": 5.9,
+      "oneLiner": "Talent isn't the problem, opportunity is. Rated low simply because he's in a 3-headed system. Some value late.",
+      "playerPositionId": 2
+    },
+    {
+      "id": 58,
+      "name": "Melvin Gordon",
+      "teamId": 10,
+      "metricEval": 6.5,
+      "oneLiner": "When not on injured reserve he's decent. Don't pick though.",
+      "playerPositionId": 2
+    },
+    {
+      "id": 59,
+      "name": "Raheem Mostert",
+      "teamId": 27,
+      "metricEval": 5.6,
+      "oneLiner": "He's so fast. One of the fastest. When he's not in a wheelchair. It's a no for me dawg.",
+      "playerPositionId": 2
+    },
+    {
+      "id": 60,
+      "name": "Michael Carter",
+      "teamId": 24,
+      "metricEval": 4,
+      "oneLiner": "He's on the Jets. RIP.",
+      "playerPositionId": 2
+    },
+    {
+      "id": 61,
+      "name": "James Connor",
+      "teamId": 1,
+      "metricEval": 6.8,
+      "oneLiner": "Inconsistent and points come in bunches when used. Late round pick.",
+      "playerPositionId": 2
+    },
+    {
+      "id": 62,
+      "name": "Jamaal Williams",
+      "teamId": 11,
+      "metricEval": 5.5,
+      "oneLiner": "He's awesome as a person but as a player on the Lions.....big nope.",
+      "playerPositionId": 2
+    },
+    {
+      "id": 63,
+      "name": "Leonard Fournette ",
+      "teamId": 29,
+      "metricEval": 6,
+      "oneLiner": "Lenny is aight but points come in bunches. Late round value.",
+      "playerPositionId": 2
+    },
+    {
+      "id": 64,
+      "name": "Devin Singletary",
+      "teamId": 4,
+      "metricEval": 7,
+      "oneLiner": "He's good but shares a workload. Will get catches and could be a decent flex option. Mid round value.",
+      "playerPositionId": 2
+    },
+    {
+      "id": 65,
+      "name": "Devante Adams",
+      "teamId": 12,
+      "metricEval": 9.8,
+      "oneLiner": "A point machine. This is the best grab you can get.",
+      "playerPositionId": 3
+    },
+    {
+      "id": 66,
+      "name": "Stefon Diggs",
+      "teamId": 4,
+      "metricEval": 9.4,
+      "oneLiner": "Tons of catches. All the catches. Grab him if you can.",
+      "playerPositionId": 3
+    },
+    {
+      "id": 67,
+      "name": "Tyreek Hill",
+      "teamId": 16,
+      "metricEval": 9.2,
+      "oneLiner": "Points come in bunches and often. Very streaky but worth a top pick.",
+      "playerPositionId": 3
+    },
+    {
+      "id": 68,
+      "name": "DeAndre Hopkins",
+      "teamId": 1,
+      "metricEval": 9.9,
+      "oneLiner": "Catches everything and worth every bit of a top pick. Best WR in the NFL?",
+      "playerPositionId": 3
+    },
+    {
+      "id": 69,
+      "name": "DK Metcalf",
+      "teamId": 28,
+      "metricEval": 9,
+      "oneLiner": "Is he a human? Superman? We're not sure yet....pick him up anyway.",
+      "playerPositionId": 3
+    },
+    {
+      "id": 70,
+      "name": "Keenan Allen",
+      "teamId": 32,
+      "metricEval": 8.8,
+      "oneLiner": "A receptions master. He can catch anything when he's not catching injuries.",
+      "playerPositionId": 3
+    },
+    {
+      "id": 71,
+      "name": "AJ Brown",
+      "teamId": 30,
+      "metricEval": 8.8,
+      "oneLiner": "One of the young ones being great. Will only get better. Worthy of a top pick.",
+      "playerPositionId": 3
+    },
+    {
+      "id": 72,
+      "name": "Allen Robinson",
+      "teamId": 6,
+      "metricEval": 8.7,
+      "oneLiner": "Criminally underrated talent when he's on the field and not the injury cart. A good pickup.",
+      "playerPositionId": 3
+    },
+    {
+      "id": 73,
+      "name": "Justin Jefferson",
+      "teamId": 20,
+      "metricEval": 9.1,
+      "oneLiner": "A young force in the game that will only get better as the season goes on. A top pick.",
+      "playerPositionId": 3
+    },
+    {
+      "id": 74,
+      "name": "Scary `Terry` McLaurin",
+      "teamId": 30,
+      "metricEval": 8.8,
+      "oneLiner": "He's scary good at everything. His quarterback situation is scarier...",
+      "playerPositionId": 3
+    },
+    {
+      "id": 75,
+      "name": "CeeDee Lamb",
+      "teamId": 9,
+      "metricEval": 8.6,
+      "oneLiner": "CeeDee is going to see deez TD's. Pick him up.",
+      "playerPositionId": 3
+    },
+    {
+      "id": 76,
+      "name": "Cooper Kupp",
+      "teamId": 18,
+      "metricEval": 9.7,
+      "oneLiner": "On a historic pace to be one of the best WR in the NFL. Whether that's true or not, he'll get you crazy points.",
+      "playerPositionId": 3
+    },
+    {
+      "id": 77,
+      "name": "Mike Evans",
+      "teamId": 29,
+      "metricEval": 8.9,
+      "oneLiner": "A big-bodied master at the point of catch. He's gonna get catches and TD's. Pick him up.",
+      "playerPositionId": 3
+    },
+    {
+      "id": 78,
+      "name": "Diontae Johnson",
+      "teamId": 26,
+      "metricEval": 8.2,
+      "oneLiner": "A good player with a bad qb situation. Stay away or pick at your own risk.",
+      "playerPositionId": 3
+    },
+    {
+      "id": 79,
+      "name": "DJ Moore",
+      "teamId": 32,
+      "metricEval": 8.3,
+      "oneLiner": "A solid choice in the later rounds. He'll get lots of receptions.",
+      "playerPositionId": 3
+    },
+    {
+      "id": 80,
+      "name": "Jerry Jeudy",
+      "teamId": 10,
+      "metricEval": 7.7,
+      "oneLiner": "The best WR on their team but with a shaky QB situation, pick at your own risk.",
+      "playerPositionId": 3
+    },
+    {
+      "id": 81,
+      "name": "JaMarr Chase",
+      "teamId": 7,
+      "metricEval": 9.3,
+      "oneLiner": "This Rookie of the Year will be an all-time great if he keeps playing like he is. He could vie for your top picks.",
+      "playerPositionId": 3
+    },
+    {
+      "id": 82,
+      "name": "Brandon Aiyuk",
+      "teamId": 27,
+      "metricEval": 7.6,
+      "oneLiner": "A good late round pick. Overshadowed by Deebo who takes all the accolades.",
+      "playerPositionId": 3
+    },
+    {
+      "id": 83,
+      "name": "Kenny Golladay",
+      "teamId": 23,
+      "metricEval": 7,
+      "oneLiner": "Does he play football or just lay on the injury table. Undefined. Wouldn't pick.",
+      "playerPositionId": 3
+    },
+    {
+      "id": 84,
+      "name": "DeVonta Smith",
+      "teamId": 25,
+      "metricEval": 7.5,
+      "oneLiner": "They don't call him the `Slim Reaper` for nothing. Get this guy at good value in the mid rounds.",
+      "playerPositionId": 3
+    },
+    {
+      "id": 85,
+      "name": "Corey Davis",
+      "teamId": 24,
+      "metricEval": 6.8,
+      "oneLiner": "He'll get points on and off. More to do with his QB situation than him. A scary selection but could be worth in the late rounds.",
+      "playerPositionId": 3
+    },
+    {
+      "id": 86,
+      "name": "Laviska Shenault Jr.",
+      "teamId": 15,
+      "metricEval": 5.7,
+      "oneLiner": "Is he a WR or a RB? No one will ever know as long as he plays for the Jags.",
+      "playerPositionId": 3
+    },
+    {
+      "id": 87,
+      "name": "Michael Pittman",
+      "teamId": 14,
+      "metricEval": 6,
+      "oneLiner": "Tall and talented. Now he just needs a QB to throw it to him. Risky pick.",
+      "playerPositionId": 3
+    },
+    {
+      "id": 88,
+      "name": "Will Fuller",
+      "teamId": 19,
+      "metricEval": 1,
+      "oneLiner": "I'm pretty sure he's the entrepreneur of the injured reserve. Made of glass. Don't do this to yourself, just pass.",
+      "playerPositionId": 3
+    },
+    {
+      "id": 89,
+      "name": "Jarvis Landry",
+      "teamId": 8,
+      "metricEval": 7.2,
+      "oneLiner": "Tons of catches but nothing else. Great in point per reception leagues but otherwise meh. Later round pick.",
+      "playerPositionId": 3
+    },
+    {
+      "id": 90,
+      "name": "Brandon Cooks",
+      "teamId": 13,
+      "metricEval": 6.3,
+      "oneLiner": "Still worth a late round flyer. He's great but his QB situation is not. You can't catch what isn't thrown to you. Risky.",
+      "playerPositionId": 3
+    },
+    {
+      "id": 91,
+      "name": "Darnell Mooney",
+      "teamId": 6,
+      "metricEval": 5.4,
+      "oneLiner": "Not bad but not good. He can ghost you some weeks and put up decent numbers others.",
+      "playerPositionId": 3
+    },
+    {
+      "id": 92,
+      "name": "Michael Thomas",
+      "teamId": 22,
+      "metricEval": 8.4,
+      "oneLiner": "Is a great talent but shaky injury concerns and inconsistent QB play lowers his rating. A risky high pick investment.",
+      "playerPositionId": 3
+    },
+    {
+      "id": 93,
+      "name": "Marquise Brown",
+      "teamId": 3,
+      "metricEval": 6.4,
+      "oneLiner": "His name isn't Mark Andrews on the Ravens so does he even catch the football? Not sure...",
+      "playerPositionId": 3
+    },
+    {
+      "id": 94,
+      "name": "Russel Gage",
+      "teamId": 2,
+      "metricEval": 2.2,
+      "oneLiner": "Who is this? Does his QB even know?",
+      "playerPositionId": 3
+    },
+    {
+      "id": 95,
+      "name": "Jakobi Meyers",
+      "teamId": 21,
+      "metricEval": 4.3,
+      "oneLiner": "The kid is scared of the endzone but he pulls in catches. A very weird risk-reward pick.",
+      "playerPositionId": 3
+    },
+    {
+      "id": 96,
+      "name": "Bryan Edwards",
+      "teamId": 17,
+      "metricEval": 4,
+      "oneLiner": "He can play football. That's good. Not sure if that should convince you to pick him.",
+      "playerPositionId": 3
+    },
+    {
+      "id": 97,
+      "name": "Amon-Ra St. Brown",
+      "teamId": 11,
+      "metricEval": 0.2,
+      "oneLiner": "He's on the Lions with Jared Goff at QB. Don't hurt yourself, just pass.",
+      "playerPositionId": 3
+    },
+    {
+      "id": 98,
+      "name": "Travis Kelce",
+      "teamId": 16,
+      "metricEval": 10,
+      "oneLiner": "The safety blanket of the baby GOAT, a must have.",
+      "playerPositionId": 4
+    },
+    {
+      "id": 99,
+      "name": "Darren Waller",
+      "teamId": 17,
+      "metricEval": 9.8,
+      "oneLiner": "He's basically a really tall and fast WR that can play TE. Absolutely draft.",
+      "playerPositionId": 4
+    },
+    {
+      "id": 100,
+      "name": "George Kittle",
+      "teamId": 27,
+      "metricEval": 9.9,
+      "oneLiner": "Could be the best TE in the game. He'll produce but needs a better QB situation to really flourish.",
+      "playerPositionId": 4
+    },
+    {
+      "id": 101,
+      "name": "Mark Andrews",
+      "teamId": 3,
+      "metricEval": 9.4,
+      "oneLiner": "Crazy good production with lots of opportunities. Draft him.",
+      "playerPositionId": 4
+    },
+    {
+      "id": 102,
+      "name": "Kyle Pitts",
+      "teamId": 2,
+      "metricEval": 8.8,
+      "oneLiner": "The new star of the TE Position...but he's on the Falcons. Meh. Solid pickup.",
+      "playerPositionId": 4
+    },
+    {
+      "id": 103,
+      "name": "TJ Hockenson",
+      "teamId": 11,
+      "metricEval": 8.5,
+      "oneLiner": "Very good but on the Lions with Jared Goff at QB. Luckily he gets lots of targets.",
+      "playerPositionId": 4
+    },
+    {
+      "id": 104,
+      "name": "Logan Thomas",
+      "teamId": 31,
+      "metricEval": 5,
+      "oneLiner": "When he's alive he isn't bad, but never alive. Pass.",
+      "playerPositionId": 4
+    },
+    {
+      "id": 105,
+      "name": "Robert Tonyan",
+      "teamId": 12,
+      "metricEval": 6.6,
+      "oneLiner": "A decent pickup if he sees the field. Can ghost games and show up big for others. Inconsistent.",
+      "playerPositionId": 4
+    },
+    {
+      "id": 106,
+      "name": "Jonnu Smith",
+      "teamId": 21,
+      "metricEval": 7,
+      "oneLiner": "Would be better if he stayed on the Titans.",
+      "playerPositionId": 4
+    },
+    {
+      "id": 107,
+      "name": "Noah Fant",
+      "teamId": 10,
+      "metricEval": 7.3,
+      "oneLiner": "Top tier talent but needs a good team around him.",
+      "playerPositionId": 4
+    },
+    {
+      "id": 108,
+      "name": "Gerald Everett",
+      "teamId": 28,
+      "metricEval": 5.8,
+      "oneLiner": "Only pick unless you have to. Too much good talent around him to have a ton of opportunities.",
+      "playerPositionId": 4
+    },
+    {
+      "id": 109,
+      "name": "Tyler Higbee",
+      "teamId": 18,
+      "metricEval": 6,
+      "oneLiner": "Decent TE. He'll get some opportunities. Streaky. Later round pick worthy.",
+      "playerPositionId": 4
+    },
+    {
+      "id": 110,
+      "name": "Dallas Goedert",
+      "teamId": 25,
+      "metricEval": 6.7,
+      "oneLiner": "Not a bad pick later. QB play is inconsistent but he has talent to put up big numbers if that can stabilize.",
+      "playerPositionId": 4
+    },
+    {
+      "id": 111,
+      "name": "Mike Gesicki",
+      "teamId": 19,
+      "metricEval": 7.4,
+      "oneLiner": "He's great but needs opportunities. Good mid round pick.",
+      "playerPositionId": 4
+    },
+    {
+      "id": 112,
+      "name": "Cole Kmet",
+      "teamId": 6,
+      "metricEval": 3.9,
+      "oneLiner": "The jury is still out on this guy. He seems to be a bust but he's also on a bad Bears offense. Give him a few years to figure it out. Pass.",
+      "playerPositionId": 4
+    },
+    {
+      "id": 113,
+      "name": "Zach Ertz",
+      "teamId": 1,
+      "metricEval": 5.5,
+      "oneLiner": "Does the TE even get used in the Cardinals offense? Who knows, might be worth a late flyer.",
+      "playerPositionId": 4
+    },
+    {
+      "id": 114,
+      "name": "Anthony Firkser",
+      "teamId": 30,
+      "metricEval": 0.7,
+      "oneLiner": "No. Just no.",
+      "playerPositionId": 4
+    },
+    {
+      "id": 115,
+      "name": "Austin Hooper",
+      "teamId": 8,
+      "metricEval": 6.6,
+      "oneLiner": "Not a bad grab later on.",
+      "playerPositionId": 4
+    },
+    {
+      "id": 116,
+      "name": "Rob Gronkowski",
+      "teamId": 29,
+      "metricEval": 7.8,
+      "oneLiner": "The GOAT's favorite target. When he isn't injured, he'll put up points. ",
+      "playerPositionId": 4
+    },
+    {
+      "id": 117,
+      "name": "Evan Engram",
+      "teamId": 23,
+      "metricEval": 6.8,
+      "oneLiner": "This man has too much talent to have Daniel Jones as his QB. Free this man!... but don't draft.",
+      "playerPositionId": 4
+    },
+    {
+      "id": 118,
+      "name": "Blake Jarwin",
+      "teamId": 9,
+      "metricEval": 3.5,
+      "oneLiner": "He's not the other TE on the roster. Don't draft.",
+      "playerPositionId": 4
+    },
+    {
+      "id": 119,
+      "name": "LA Rams Defense",
+      "teamId": 18,
+      "metricEval": 9.5,
+      "oneLiner": "Solid all around. The best in the game.",
+      "playerPositionId": 5
+    },
+    {
+      "id": 120,
+      "name": "Justin Tucker",
+      "teamId": 3,
+      "metricEval": 10,
+      "oneLiner": "Will go down as the best to ever do it if he plays a long career. Must pick.",
+      "playerPositionId": 6
+    }
+  ],
+  "playerPositions": [
+    {
+      "id": 1,
+      "positionName": "QB"
+    },
+    {
+      "id": 2,
+      "positionName": "RB"
+    },
+    {
+      "id": 3,
+      "positionName": "WR"
+    },
+    {
+      "id": 4,
+      "positionName": "TE"
+    },
+    {
+      "id": 5,
+      "positionName": "DEF"
+    },
+    {
+      "id": 6,
+      "positionName": "K"
+    }
+  ],
+  "teamBuilder": [
+    {
+      "id": 1,
+      "name": "The Argonauts",
+      "userId": 1,
+      "qbId": 4,
+      "rb1Id": 38,
+      "rb2Id": 48,
+      "wr1Id": 73,
+      "wr2Id": 77,
+      "teId": 102,
+      "flexId": 61,
+      "defId": 119,
+      "kId": 120
+    }
+  ]
 }
