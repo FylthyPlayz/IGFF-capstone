@@ -14,6 +14,11 @@
       "name": "Sean",
       "email": "sean@email.com",
       "id": 3
+    },
+    {
+      "name": "Tori",
+      "email": "tori@email.com",
+      "id": 4
     }
   ],
   "teams": [
@@ -171,6 +176,16 @@
       "userId": 3,
       "teamId": 21,
       "id": 5
+    },
+    {
+      "userId": 4,
+      "teamId": 24,
+      "id": 6
+    },
+    {
+      "userId": 4,
+      "teamId": 25,
+      "id": 7
     }
   ],
   "teamEvals": [
@@ -862,7 +877,7 @@
     },
     {
       "id": 74,
-      "name": "Scary `Terry` McLaurin",
+      "name": "`Scary` Terry McLaurin",
       "teamId": 31,
       "metricEval": 8.8,
       "oneLiner": "He's scary good at everything. His quarterback situation is scarier...",
@@ -1235,6 +1250,158 @@
       "metricEval": 10,
       "oneLiner": "Will go down as the best to ever do it if he plays a long career. Must pick.",
       "playerPositionId": 6
+    },
+    {
+      "id": 121,
+      "name": "Nick Folk",
+      "teamId": 21,
+      "metricEval": 8,
+      "oneLiner": "Solid option that will get points. Inconsistent streaks, tho.",
+      "playerPositionId": 6
+    },
+    {
+      "id": 122,
+      "name": "Matt Gay",
+      "teamId": 18,
+      "metricEval": 7.3,
+      "oneLiner": "One solid season, inconsistent otherwise.",
+      "playerPositionId": 6
+    },
+    {
+      "id": 123,
+      "name": "Daniel Carson",
+      "teamId": 17,
+      "metricEval": 8.5,
+      "oneLiner": "Just got mega paid. Hopefully this leads to hard work and good kicks. Huge distance. Good pickup.",
+      "playerPositionId": 6
+    },
+    {
+      "id": 124,
+      "name": "Harrison Butker",
+      "teamId": 16,
+      "metricEval": 9.2,
+      "oneLiner": "One of the more consistent kickers in the league. Must have.",
+      "playerPositionId": 6
+    },
+    {
+      "id": 125,
+      "name": "Tyler Bass",
+      "teamId": 4,
+      "metricEval": 6.7,
+      "oneLiner": "Strong leg but inaccurate at times. Decent pick.",
+      "playerPositionId": 6
+    },
+    {
+      "id": 126,
+      "name": "Evan McPherson",
+      "teamId": 7,
+      "metricEval": 7.5,
+      "oneLiner": "A solid young kicker. He should only get better. A good pick.",
+      "playerPositionId": 6
+    },
+    {
+      "id": 127,
+      "name": "Greg Joseph",
+      "teamId": 20,
+      "metricEval": 7,
+      "oneLiner": "A rotational kicker, huge leg but can become awful randomly. Watch out.",
+      "playerPositionId": 6
+    },
+    {
+      "id": 128,
+      "name": "Ryan Succop",
+      "teamId": 29,
+      "metricEval": 7.9,
+      "oneLiner": "Solid kicker who routinely makes short/medium kicks. Can't go wrong here.",
+      "playerPositionId": 6
+    },
+    {
+      "id": 129,
+      "name": "Chris Boswell",
+      "teamId": 26,
+      "metricEval": 8.6,
+      "oneLiner": "A big leg and pretty accurate. A good kicker to get.",
+      "playerPositionId": 6
+    },
+    {
+      "id": 130,
+      "name": "Younghoe Koo",
+      "teamId": 2,
+      "metricEval": 9.2,
+      "oneLiner": "One of the better kickers in the game right now. Good from any distance.",
+      "playerPositionId": 6
+    },
+    {
+      "id": 131,
+      "name": "Matt Prater",
+      "teamId": 1,
+      "metricEval": 8.2,
+      "oneLiner": "The oldhead isn't what he used to be, but still a solid option.",
+      "playerPositionId": 6
+    },
+    {
+      "id": 132,
+      "name": "Greg Zuerlein",
+      "teamId": 9,
+      "metricEval": 8.9,
+      "oneLiner": "A great pickup. Very consistent and still has distance.",
+      "playerPositionId": 6
+    },
+    {
+      "id": 133,
+      "name": "Robbie Gould",
+      "teamId": 27,
+      "metricEval": 8.4,
+      "oneLiner": "As accurate as they come even if his distance has fallen off. Good for points.",
+      "playerPositionId": 6
+    },
+    {
+      "id": 134,
+      "name": "Chase McLaughlin",
+      "teamId": 8,
+      "metricEval": 6.7,
+      "oneLiner": "He'll be a journeyman and make some kicks. Not the best option.",
+      "playerPositionId": 6
+    },
+    {
+      "id": 135,
+      "name": "Brett Maher",
+      "teamId": 22,
+      "metricEval": 7.1,
+      "oneLiner": "Huge Distance if inaccurate.",
+      "playerPositionId": 6
+    },
+    {
+      "id": 136,
+      "name": "Jason Sanders",
+      "teamId": 19,
+      "metricEval": 9.3,
+      "oneLiner": "Very good pickup, he's money from any distance.",
+      "playerPositionId": 6
+    },
+    {
+      "id": 137,
+      "name": "Graham Gano",
+      "teamId": 23,
+      "metricEval": 8.4,
+      "oneLiner": "Still making kicks. His days are numbered but not a bad option for now.",
+      "playerPositionId": 6
+    },
+    {
+      "id": 138,
+      "name": "`Fat` Randy Bullock",
+      "teamId": 30,
+      "metricEval": 7.8,
+      "oneLiner": "Average kicker. Reliable on easy kicks at least. Under pressure it's probably not happening.",
+      "playerPositionId": 6
+    },
+    {
+      "id": 139,
+      "name": "Brandon McManu",
+      "teamId": 10,
+      "metricEval": 8.5,
+      "oneLiner": "Solid option, can hit from all distances. ",
+      "playerPositionId": 6
     }
   ],
   "playerPositions": [
@@ -1305,6 +1472,20 @@
       "defId": 119,
       "kId": 120,
       "id": 3
+    },
+    {
+      "name": "TorNados",
+      "userId": 4,
+      "qbId": 15,
+      "rb1Id": 34,
+      "rb2Id": 36,
+      "wr1Id": 95,
+      "wr2Id": 74,
+      "teId": 116,
+      "flexId": 69,
+      "defId": 119,
+      "kId": 120,
+      "id": 4
     }
   ]
 }
