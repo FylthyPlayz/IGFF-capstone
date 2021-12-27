@@ -1397,11 +1397,355 @@
     },
     {
       "id": 139,
-      "name": "Brandon McManu",
+      "name": "Brandon McManus",
       "teamId": 10,
       "metricEval": 8.5,
-      "oneLiner": "Solid option, can hit from all distances. ",
+      "oneLiner": "Solid option, can hit from all distances.",
       "playerPositionId": 6
+    },
+    {
+      "id": 140,
+      "name": "Rodrigo Blankenship",
+      "teamId": 14,
+      "metricEval": 8.7,
+      "oneLiner": "A young player that is automatic with his kicks. A solid option.",
+      "playerPositionId": 6
+    },
+    {
+      "id": 141,
+      "name": "Mason Crosby",
+      "teamId": 12,
+      "metricEval": 8.6,
+      "oneLiner": "Has usually one off game a season but otherwise, can hit from all distances and is reliable.",
+      "playerPositionId": 6
+    },
+    {
+      "id": 142,
+      "name": "Cairo Santos",
+      "teamId": 6,
+      "metricEval": 7.2,
+      "oneLiner": "Knows how to kick a football but not sure if he knows where to kick it...",
+      "playerPositionId": 6
+    },
+    {
+      "id": 143,
+      "name": "Jake Elliot",
+      "teamId": 25,
+      "metricEval": 8.3,
+      "oneLiner": "Can kick from huge distances and he has room to grow.",
+      "playerPositionId": 6
+    },
+    {
+      "id": 144,
+      "name": "Aldrick Rosas",
+      "teamId": 11,
+      "metricEval": 7.7,
+      "oneLiner": "An average kicker. That's it.",
+      "playerPositionId": 6
+    },
+    {
+      "id": 145,
+      "name": "Zane Gonzalez",
+      "teamId": 5,
+      "metricEval": 6.2,
+      "oneLiner": "He can kick it far. About it.",
+      "playerPositionId": 6
+    },
+    {
+      "id": 146,
+      "name": "Jason Myers",
+      "teamId": 28,
+      "metricEval": 7.1,
+      "oneLiner": "Another rotational guy. Can make kicks but should be brought in from the waiver wire, not your starter.",
+      "playerPositionId": 6
+    },
+    {
+      "id": 147,
+      "name": "Brian Johnson",
+      "teamId": 31,
+      "metricEval": 5.5,
+      "oneLiner": "I wouldn't touch him until we know if he can play.",
+      "playerPositionId": 6
+    },
+    {
+      "id": 148,
+      "name": "Ka'Imi Fairbairn",
+      "teamId": 13,
+      "metricEval": 5.9,
+      "oneLiner": "Not very good. I wouldn't pick him if he was the only kicker left.",
+      "playerPositionId": 6
+    },
+    {
+      "id": 149,
+      "name": "Matt Ammendola",
+      "teamId": 24,
+      "metricEval": 4.8,
+      "oneLiner": "Who?",
+      "playerPositionId": 6
+    },
+    {
+      "id": 150,
+      "name": "Dustin Hopkins",
+      "teamId": 32,
+      "metricEval": 6.6,
+      "oneLiner": "Has made some kicks but he's not the best.",
+      "playerPositionId": 6
+    },
+    {
+      "id": 151,
+      "name": "Josh Lambo",
+      "teamId": 15,
+      "metricEval": 7.5,
+      "oneLiner": "Was `kicked` off the team by the head coach who has now been fired for kicking his players....so much kicking....",
+      "playerPositionId": 6
+    },
+    {
+      "id": 152,
+      "name": "Pittsburgh Steelers Defense",
+      "teamId": 26,
+      "metricEval": 9.8,
+      "oneLiner": "They have everything you need to score points. Top tier option.",
+      "playerPositionId": 5
+    },
+    {
+      "id": 153,
+      "name": "Washington Football Team Defense",
+      "teamId": 31,
+      "metricEval": 8.8,
+      "oneLiner": "One of the better defenses hurt by a bad offense.",
+      "playerPositionId": 5
+    },
+    {
+      "id": 154,
+      "name": "Baltimore Ravens Defense",
+      "teamId": 3,
+      "metricEval": 9.2,
+      "oneLiner": "Good at every level when the injury bug doesn't hold them back.",
+      "playerPositionId": 5
+    },
+    {
+      "id": 155,
+      "name": "Tampa Bay Buccaneers Defense",
+      "teamId": 29,
+      "metricEval": 9,
+      "oneLiner": "Great pass rush and roaming linebackers. They can be your starter defense all year.",
+      "playerPositionId": 5
+    },
+    {
+      "id": 156,
+      "name": "San Francisco 49ers Defense",
+      "teamId": 27,
+      "metricEval": 8.7,
+      "oneLiner": "Really good defense that can hold you down through the season.",
+      "playerPositionId": 5
+    },
+    {
+      "id": 157,
+      "name": "Miami Dolphins",
+      "teamId": 19,
+      "metricEval": 8.2,
+      "oneLiner": "Good pieces and can get you points but a bad offense keeps these guys on the field a lot, diminishing their point value.",
+      "playerPositionId": 5
+    },
+    {
+      "id": 158,
+      "name": "Indianapolis Colts Defense",
+      "teamId": 14,
+      "metricEval": 8.6,
+      "oneLiner": "Stars at every level of the defense keeps these guys top tier.",
+      "playerPositionId": 5
+    },
+    {
+      "id": 159,
+      "name": "Kansas City Chiefs Defense",
+      "teamId": 16,
+      "metricEval": 7.8,
+      "oneLiner": "They are overrated due to a prolific offense. They're just average.",
+      "playerPositionId": 5
+    },
+    {
+      "id": 160,
+      "name": "New Orleans Saints Defense",
+      "teamId": 22,
+      "metricEval": 8.3,
+      "oneLiner": "Above average defense that really overplays each week.",
+      "playerPositionId": 5
+    },
+    {
+      "id": 161,
+      "name": "Buffalo Bills Defense",
+      "teamId": 4,
+      "metricEval": 8.4,
+      "oneLiner": "Ball-hawking secondary carries this squad but the offense also keeps them off the field. A good pick.",
+      "playerPositionId": 5
+    },
+    {
+      "id": 162,
+      "name": "New England Patriots Defense",
+      "teamId": 21,
+      "metricEval": 7.8,
+      "oneLiner": "Average defense that can occasionally put up points.",
+      "playerPositionId": 5
+    },
+    {
+      "id": 163,
+      "name": "Cleveland Browns",
+      "teamId": 8,
+      "metricEval": 8,
+      "oneLiner": "Myles Garrett carries this squad and that's okay.",
+      "playerPositionId": 5
+    },
+    {
+      "id": 164,
+      "name": "Green Bay Packers",
+      "teamId": 12,
+      "metricEval": 7.6,
+      "oneLiner": "Held up by a powerful offense. Has good pieces but overall just average.",
+      "playerPositionId": 5
+    },
+    {
+      "id": 165,
+      "name": "Denver Broncos",
+      "teamId": 10,
+      "metricEval": 7.9,
+      "oneLiner": "Always a solid option. Just average after losing Von Miller.",
+      "playerPositionId": 5
+    },
+    {
+      "id": 166,
+      "name": "Chicago Bears Defense",
+      "teamId": 6,
+      "metricEval": 8.2,
+      "oneLiner": "Mack Attack and crew can still get points any given Sunday.",
+      "playerPositionId": 5
+    },
+    {
+      "id": 167,
+      "name": "Arizona Cardinals Defense",
+      "teamId": 1,
+      "metricEval": 8.6,
+      "oneLiner": "A good pickup for stability even if you don't get a lot of points.",
+      "playerPositionId": 5
+    },
+    {
+      "id": 168,
+      "name": "Los Angeles Chargers Defense",
+      "teamId": 32,
+      "metricEval": 7.7,
+      "oneLiner": "A few starts but nothing else noteworthy.",
+      "playerPositionId": 5
+    },
+    {
+      "id": 169,
+      "name": "Seattle Seahawks Defense",
+      "teamId": 28,
+      "metricEval": 7.2,
+      "oneLiner": "The Legion of Boom is long gone and replaced with the Legion of Who?",
+      "playerPositionId": 5
+    },
+    {
+      "id": 170,
+      "name": "New York Giants Defense",
+      "teamId": 23,
+      "metricEval": 7,
+      "oneLiner": "I wouldn't hurt yourself by picking this squad.",
+      "playerPositionId": 5
+    },
+    {
+      "id": 171,
+      "name": "New York Jets Defense",
+      "teamId": 24,
+      "metricEval": 6,
+      "oneLiner": "Very gross. Stay away.",
+      "playerPositionId": 5
+    },
+    {
+      "id": 172,
+      "name": "Philidelphia Eagles Defense",
+      "teamId": 25,
+      "metricEval": 7.6,
+      "oneLiner": "Average and held down by the offense. A decent waiver pickup for a week.",
+      "playerPositionId": 5
+    },
+    {
+      "id": 173,
+      "name": "Minnesota Vikings Defense",
+      "teamId": 20,
+      "metricEval": 7.8,
+      "oneLiner": "An older group but still valuable and can get the job done.",
+      "playerPositionId": 5
+    },
+    {
+      "id": 174,
+      "name": "Dallas Cowboys Defense",
+      "teamId": 18,
+      "metricEval": 8.1,
+      "oneLiner": "Very solid pieces and some spots that need new players. This defense can carry you all year.",
+      "playerPositionId": 5
+    },
+    {
+      "id": 175,
+      "name": "Tennessee Titans Defense",
+      "teamId": 30,
+      "metricEval": 8.4,
+      "oneLiner": "Stars at every level of defense. It doesn't get much better than this. Injuries bring them down.",
+      "playerPositionId": 5
+    },
+    {
+      "id": 176,
+      "name": "Atlanta Falcons Defense",
+      "teamId": 2,
+      "metricEval": 6,
+      "oneLiner": "Nothing is going well for this crew and the offense doesn't help.",
+      "playerPositionId": 5
+    },
+    {
+      "id": 177,
+      "name": "Carolina Panthers Defense",
+      "teamId": 5,
+      "metricEval": 6.3,
+      "oneLiner": "Good pieces but a long way from being a good defense.",
+      "playerPositionId": 5
+    },
+    {
+      "id": 178,
+      "name": "Las Vegas Raiders",
+      "teamId": 17,
+      "metricEval": 6,
+      "oneLiner": "Not good. No real star players on this squad.",
+      "playerPositionId": 5
+    },
+    {
+      "id": 179,
+      "name": "Jacksonville Jaguars Defense",
+      "teamId": 15,
+      "metricEval": 5.8,
+      "oneLiner": "This whole team is abysmal. Stay away.",
+      "playerPositionId": 5
+    },
+    {
+      "id": 180,
+      "name": "Cincinnati Bengals",
+      "teamId": 7,
+      "metricEval": 6.9,
+      "oneLiner": "They get around the ball. Not very good but the offense keeps them off the field.",
+      "playerPositionId": 5
+    },
+    {
+      "id": 181,
+      "name": "Detroit Lions Defense",
+      "teamId": 11,
+      "metricEval": 3,
+      "oneLiner": "Never touch them. Don't even think about picking them.",
+      "playerPositionId": 5
+    },
+    {
+      "id": 182,
+      "name": "Houston Texans Defense",
+      "teamId": 13,
+      "metricEval": 4,
+      "oneLiner": "Don't throw up, just pick someone else.",
+      "playerPositionId": 5
     }
   ],
   "playerPositions": [
