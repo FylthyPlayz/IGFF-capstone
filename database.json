@@ -4,21 +4,6 @@
       "id": 1,
       "name": "Jacob Cook",
       "email": "jacob@email.com"
-    },
-    {
-      "name": "Randy",
-      "email": "randy@email.com",
-      "id": 2
-    },
-    {
-      "name": "Sean",
-      "email": "sean@email.com",
-      "id": 3
-    },
-    {
-      "name": "Tori",
-      "email": "tori@email.com",
-      "id": 4
     }
   ],
   "teams": [
@@ -156,36 +141,6 @@
       "id": 1,
       "userId": 1,
       "teamId": 30
-    },
-    {
-      "userId": 2,
-      "teamId": 5,
-      "id": 2
-    },
-    {
-      "userId": 2,
-      "teamId": 7,
-      "id": 3
-    },
-    {
-      "userId": 2,
-      "teamId": 12,
-      "id": 4
-    },
-    {
-      "userId": 3,
-      "teamId": 21,
-      "id": 5
-    },
-    {
-      "userId": 4,
-      "teamId": 24,
-      "id": 6
-    },
-    {
-      "userId": 4,
-      "teamId": 25,
-      "id": 7
     }
   ],
   "teamEvals": [
@@ -1788,48 +1743,6 @@
       "flexId": 61,
       "defId": 119,
       "kId": 120
-    },
-    {
-      "name": "Flying Squirrels",
-      "userId": 2,
-      "qbId": 17,
-      "rb1Id": 39,
-      "rb2Id": 47,
-      "wr1Id": 76,
-      "wr2Id": 79,
-      "teId": 104,
-      "flexId": 51,
-      "defId": 119,
-      "kId": 120,
-      "id": 2
-    },
-    {
-      "name": "Michigan Manticores",
-      "userId": 3,
-      "qbId": 22,
-      "rb1Id": 57,
-      "rb2Id": 40,
-      "wr1Id": 66,
-      "wr2Id": 67,
-      "teId": 115,
-      "flexId": 52,
-      "defId": 119,
-      "kId": 120,
-      "id": 3
-    },
-    {
-      "name": "TorNados",
-      "userId": 4,
-      "qbId": 15,
-      "rb1Id": 34,
-      "rb2Id": 36,
-      "wr1Id": 95,
-      "wr2Id": 74,
-      "teId": 116,
-      "flexId": 69,
-      "defId": 119,
-      "kId": 120,
-      "id": 4
     }
   ]
 }
